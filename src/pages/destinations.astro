@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.tsx';
+import DestinationsComponent from '../components/Destinations.tsx';
+---
+
+<Layout title="Destinos | Lima Inka Trip">
+	<Navbar client:load solid={true} currentPath={Astro.url.pathname} />
+	<main class="pt-24 min-h-screen">
+		<DestinationsComponent />
+	</main>
+</Layout>

@@ -1,0 +1,571 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.tsx';
+---
+
+<Layout title="Tours in Chachapoyas - Lima Inka Trip">
+	<Navbar client:load solid={true} currentPath=`/en/chachapoyas` lang="en" />
+	<main class="pt-24 min-h-screen bg-gray-50">
+		<section class="py-12">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
+				<span class="text-brand-accent font-bold tracking-wider uppercase text-sm">Northeast Destination</span>
+				<h1 class="mt-2 text-4xl font-display font-bold text-brand-primary mb-6">Tour Packages in Chachapoyas</h1>
+				<p class="text-gray-600 max-w-2xl mx-auto">Explore the mountain jungle, ancient fortresses like Kuelap, impressive waterfalls, and enigmatic sarcophagi.</p>
+			</div>
+
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+					{/* Tour Card City Tour Chachapoyas */}
+					<a href="/en/tours/city-tour-chachapoyas" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1587595431973-160d0d94add1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="City Tour Chachapoyas" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
+								Half Day
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Chachapoyas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">City Tour Chachapoyas</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Recorre las calles coloniales de la ciudad, visita sus museos y descubre el encanto histórico de la capital de Amazonas.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card Catarata Yumbilla */}
+					<a href="/en/tours/catarata-yumbilla" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Catarata Yumbilla" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
+								Full Day
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Amazonas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Catarata Yumbilla</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Aventúrate a conocer una de las cataratas más altas del mundo en medio del bosque de neblina. Trekking y maravillas naturales.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card Kuélap */}
+					<a href="/en/tours/kuelap" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1548074900-514d3dafb9c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Fortaleza de Kuélap" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
+								Full Day
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Amazonas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Kuélap</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Visita la majestuosa fortaleza de los Chachapoyas en las alturas de los Andes y maravíllate con su arquitectura milenaria.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card Huaylla Belén & Karajía */}
+					<a href="/en/tours/huaylla-belen-karajia" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1518182170546-076616fd4aa6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Huaylla Belén y Karajía" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
+								Full Day
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Amazonas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Huaylla Belén & Karajía</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Descubre los enigmáticos sarcófagos de Karajía incrustados en la roca y pasea por el hermoso valle de Huaylla Belén.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card Revash & Leymebamba */}
+					<a href="/en/tours/revash-leymebamba" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1526392060635-9d6019884377?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Revash y Leymebamba" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
+								Full Day
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Amazonas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Revash & Leymebamba</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Explora los coloridos mausoleos de Revash esculpidos en acantilados y maravíllate con las momias del museo de Leymebamba.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card Karajía & Caverna Quiocta */}
+					<a href="/en/tours/karajia-caverna-quiocta" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1615886745167-27b99d54e4f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Karajía y Caverna Quiocta" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
+								Full Day
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Amazonas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Karajía & Caverna Quiocta</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Conoce el arte funerario de los sarcófagos de Karajía y luego adéntrate en las estalactitas milenarias de la caverna Quiocta.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card Catarata Gocta */}
+					<a href="/en/tours/catarata-gocta" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1577700203590-7fbf295321f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Catarata Gocta" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
+								Full Day
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Amazonas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Catarata Gocta</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Una impresionante caminata hasta la base de una de las cataratas más imponentes y altas del planeta.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+
+					{/* Tour Card City Tour Chachapoyas */}
+					<a href="/en/tours/city-tour-chachapoyas" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1587595431973-160d0d94add1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="City Tour Chachapoyas" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
+								Half Day
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Chachapoyas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">City Tour Chachapoyas</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Recorre las calles coloniales de la ciudad, visita sus museos y descubre el encanto histórico de la capital de Amazonas.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card Catarata Yumbilla */}
+					<a href="/en/tours/catarata-yumbilla" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Catarata Yumbilla" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
+								Full Day
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Amazonas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Catarata Yumbilla</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Aventúrate a conocer una de las cataratas más altas del mundo en medio del bosque de neblina. Trekking y maravillas naturales.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card Kuélap */}
+					<a href="/en/tours/kuelap" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1548074900-514d3dafb9c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Fortaleza de Kuélap" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
+								Full Day
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Amazonas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Kuélap</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Visita la majestuosa fortaleza de los Chachapoyas en las alturas de los Andes y maravíllate con su arquitectura milenaria.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card Huaylla Belén & Karajía */}
+					<a href="/en/tours/huaylla-belen-karajia" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1518182170546-076616fd4aa6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Huaylla Belén y Karajía" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
+								Full Day
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Amazonas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Huaylla Belén & Karajía</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Descubre los enigmáticos sarcófagos de Karajía incrustados en la roca y pasea por el hermoso valle de Huaylla Belén.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card Revash & Leymebamba */}
+					<a href="/en/tours/revash-leymebamba" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1526392060635-9d6019884377?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Revash y Leymebamba" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
+								Full Day
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Amazonas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Revash & Leymebamba</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Explora los coloridos mausoleos de Revash esculpidos en acantilados y maravíllate con las momias del museo de Leymebamba.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card Karajía & Caverna Quiocta */}
+					<a href="/en/tours/karajia-caverna-quiocta" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1615886745167-27b99d54e4f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Karajía y Caverna Quiocta" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
+								Full Day
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Amazonas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Karajía & Caverna Quiocta</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Conoce el arte funerario de los sarcófagos de Karajía y luego adéntrate en las estalactitas milenarias de la caverna Quiocta.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card Catarata Gocta */}
+					<a href="/en/tours/catarata-gocta" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1577700203590-7fbf295321f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Catarata Gocta" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
+								Full Day
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Amazonas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Catarata Gocta</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Una impresionante caminata hasta la base de una de las cataratas más imponentes y altas del planeta.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+
+
+
+
+
+
+
+
+
+					{/* Tour Card 4D 3N Ambos Mundos */}
+					<a href="/tarapoto/tarapoto-chachapoyas-4d-3n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1577700203590-7fbf295321f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Tarapoto y Chachapoyas 4D 3N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								4D / 3N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Tarapoto & Chachapoyas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Descubre Ambos Mundos</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Una fusión perfecta entre la selva vibrante de Tarapoto y la majestuosidad andina de Chachapoyas en 4 días de pura aventura.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card 6D 5N Ambos Mundos */}
+					<a href="/tarapoto/tarapoto-chachapoyas-6d-5n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Tarapoto y Chachapoyas 6D 5N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								6D / 5N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Tarapoto & Chachapoyas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Descubre Ambos Mundos</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Seis días donde contrastan la riqueza amazónica y los misterios milenarios de Kuélap y Gocta.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card 5D 4N Tarapoto y Chachapoyas */}
+					<a href="/tarapoto/tarapoto-chachapoyas-5d-4n-2" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1548074900-514d3dafb9c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Tarapoto y Chachapoyas 5D 4N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								5D / 4N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Tarapoto & Chachapoyas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Tarapoto y Chachapoyas</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Circuito especial para empaparte de los colores y la historia del nororiente peruano en una inolvidable estadía.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card 8D 7N Tarapoto y Chachapoyas */}
+					<a href="/tarapoto/tarapoto-chachapoyas-8d-7n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1518182170546-076616fd4aa6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Tarapoto y Chachapoyas 8D 7N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								8D / 7N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Gran Expedición
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Tarapoto y Chachapoyas</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">El viaje definitivo. Ocho días para experimentar a profundidad todo lo que la selva y la ceja de selva tienen para ofrecer.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+
+
+
+
+
+
+
+
+
+					
+
+
+
+
+
+
+
+				</div>
+			</div>
+		</section>
+	</main>
+</Layout>

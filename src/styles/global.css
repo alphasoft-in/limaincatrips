@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Outfit', sans-serif;
+
+  --color-brand-primary: #112A46; /* Navy Blue from TRIPS */
+  --color-brand-secondary: #E61C24; /* Red from Lima Inca */
+  --color-brand-accent: #2563EB; /* Blue accent */
+  --color-brand-light: #F9FAFB;
+  --color-brand-dark: #0A192F;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-brand-light text-brand-dark font-sans antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold tracking-tight;
+  }
+}

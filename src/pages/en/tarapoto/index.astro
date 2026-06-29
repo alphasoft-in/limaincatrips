@@ -1,0 +1,413 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.tsx';
+---
+
+<Layout title="Tours en Tarapoto - Lima Inka Trip" lang="en">
+	<Navbar client:load solid={true} currentPath=`/tarapoto` lang="en" />
+	<main class="pt-24 min-h-screen bg-gray-50">
+		<section class="py-12">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
+				<span class="text-brand-accent font-bold tracking-wider uppercase text-sm">Destino Selva</span>
+				<h1 class="mt-2 text-4xl font-display font-bold text-brand-primary mb-6">Explora Tarapoto</h1>
+				<p class="text-gray-600 max-w-2xl mx-auto">Descubre las cataratas, lagunas y la exuberante naturaleza de la Ciudad de las Palmeras con nuestros tours exclusivos.</p>
+			</div>
+
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+					{/* Tour Card Mirador Taitamaki */}
+					<a href="/en/tarapoto/tarapoto-mirador-taitamaki" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="/tarapoto/mirador-taitamaki.png" 
+								alt="Mirador Taitamaki" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								Tour Diario
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Tarapoto - Paisaje
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Mirador Taitamaki</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Visita el espectacular Mirador Taitamaki, captura vistas panorámicas inigualables y disfruta de una tarde llena de fotografía y naturaleza.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card Catarata de Ahuashiyacu */}
+					<a href="/en/tours/catarata-de-ahuashiyacu" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="/tarapoto/catarata-ahuashiyacu.png" 
+								alt="Catarata de Ahuashiyacu" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
+								Half Day
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Tarapoto
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Catarata de Ahuashiyacu</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Disfruta de la caída de agua más espectacular y accesible de Tarapoto, rodeada de abundante flora y fauna tropical.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+
+					{/* Tour Card Reserva Santa Elena */}
+					<a href="/tarapoto/tarapoto-reserva-santa-elena" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="/tarapoto/reserva-santa-elena.png" 
+								alt="Reserva Santa Elena" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								Tour Diario
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Tarapoto - Ecoturismo
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Reserva Santa Elena</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Una escapada de día completo a este paraíso natural virgen. Navega por sus aguas y respira el aire más puro del bosque.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card Mirador Taitamaki */}
+					<a href="/en/tarapoto/tarapoto-mirador-taitamaki" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1615886745167-27b99d54e4f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Mirador Taitamaki" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								Tour Diario
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Tarapoto - Paisaje
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Mirador Taitamaki</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Visita el espectacular Mirador Taitamaki, captura vistas panorámicas inigualables y disfruta de una tarde llena de fotografía y naturaleza.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card Catarata de Ahuashiyacu */}
+					<a href="/en/tours/catarata-de-ahuashiyacu" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1542317826-646700c926f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Catarata de Ahuashiyacu" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
+								Half Day
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Tarapoto
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Catarata de Ahuashiyacu</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Disfruta de la caída de agua más espectacular y accesible de Tarapoto, rodeada de abundante flora y fauna tropical.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+
+
+
+
+
+
+
+
+
+					
+					{/* Tour Card 3D 2N */}
+					<a href="/tarapoto/tarapoto-3d-2n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="/tarapoto/tarapoto-3d2n.png" 
+								alt="Tarapoto 3D 2N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								3D / 2N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Tarapoto
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Paquete Turístico Tarapoto</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Una escapada perfecta para conocer los atractivos principales de Tarapoto, cataratas refrescantes y paisajes increíbles.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+					
+					{/* Tour Card 4D 3N */}
+					<a href="/tarapoto/tarapoto-4d-3n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="/tarapoto/tarapoto-4d3n.png" 
+								alt="Tarapoto 4D 3N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								4D / 3N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Tarapoto
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Paquete Turístico Tarapoto</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Aventura completa de 4 días explorando las maravillas naturales, lagunas pintorescas y la vibrante cultura de la Amazonía Sanmartinense.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card 5D 4N */}
+					<a href="/tarapoto/tarapoto-5d-4n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="/tarapoto/tarapoto-5d4n.png" 
+								alt="Tarapoto 5D 4N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								5D / 4N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Tarapoto
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Paquete Turístico Tarapoto</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Inmersión profunda en la selva. Cinco días diseñados para conectarte totalmente con los ecosistemas únicos y la magia de Tarapoto.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card 6D 5N */}
+					<a href="/tarapoto/tarapoto-6d-5n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="/tarapoto/tarapoto-6d5n.png" 
+								alt="Tarapoto 6D 5N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								6D / 5N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Tarapoto
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Paquete Turístico Tarapoto</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Nuestra experiencia más completa. Seis días de exploración total en la selva, descubriendo todos los secretos de la región San Martín.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card 4D 3N Ambos Mundos */}
+					<a href="/tarapoto/tarapoto-chachapoyas-4d-3n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="/tarapoto/tarapoto-chachapoyas-4d3n.png" 
+								alt="Tarapoto y Chachapoyas 4D 3N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								4D / 3N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Tarapoto & Chachapoyas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Descubre Ambos Mundos</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Una fusión perfecta entre la selva vibrante de Tarapoto y la majestuosidad andina de Chachapoyas en 4 días de pura aventura.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card 6D 5N Ambos Mundos */}
+					<a href="/tarapoto/tarapoto-chachapoyas-6d-5n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="/tarapoto/tarapoto-chachapoyas-6d5n.png" 
+								alt="Tarapoto y Chachapoyas 6D 5N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								6D / 5N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Tarapoto & Chachapoyas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Descubre Ambos Mundos</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Seis días donde contrastan la riqueza amazónica y los misterios milenarios de Kuélap y Gocta.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card 5D 4N Tarapoto y Chachapoyas */}
+					<a href="/tarapoto/tarapoto-chachapoyas-5d-4n-2" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="/tarapoto/tarapoto-chachapoyas-5d4n.png" 
+								alt="Tarapoto y Chachapoyas 5D 4N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								5D / 4N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Tarapoto & Chachapoyas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Tarapoto y Chachapoyas</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Circuito especial para empaparte de los colores y la historia del nororiente peruano en una inolvidable estadía.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card 8D 7N Tarapoto y Chachapoyas */}
+					<a href="/tarapoto/tarapoto-chachapoyas-8d-7n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="/tarapoto/tarapoto-chachapoyas-8d7n.png" 
+								alt="Tarapoto y Chachapoyas 8D 7N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								8D / 7N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Gran Expedición
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Tarapoto y Chachapoyas</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">El viaje definitivo. Ocho días para experimentar a profundidad todo lo que la selva y la ceja de selva tienen para ofrecer.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+
+
+
+				</div>
+			</div>
+		</section>
+	</main>
+</Layout>

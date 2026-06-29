@@ -1,0 +1,234 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.tsx';
+import BookingWidget from '../../components/BookingWidget.tsx';
+---
+
+<Layout title="Paracas y Huacachina 2D 1N - Lima Inka Trip">
+	<Navbar client:load solid={true} currentPath={Astro.url.pathname} />
+	
+	<main class="min-h-screen bg-brand-light">
+		{/* Hero Section */}
+		<div class="relative h-[60vh] bg-brand-primary overflow-hidden">
+			<img 
+				src="https://images.unsplash.com/photo-1596700512604-bb703b688c22?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" 
+				alt="Huacachina" 
+				class="absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-overlay"
+			/>
+			<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+			<div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 pt-24">
+				<span class="text-brand-secondary font-bold tracking-widest uppercase text-lg mb-4 block drop-shadow-lg">Aventura en el Desierto y Mar</span>
+				<h1 class="text-4xl md:text-5xl lg:text-6xl text-center font-display font-bold text-white mb-6 drop-shadow-xl max-w-4xl">Paracas y Huacachina</h1>
+				<div class="inline-block px-6 py-2 bg-brand-secondary text-white rounded-full font-bold text-xl shadow-lg">
+					2D 1N </div>
+			</div>
+		</div>
+
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+			<div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+				
+				{/* Itinerary Column */}
+				<div class="lg:col-span-2">
+					<div class="flex items-center gap-3 mb-8">
+						<svg class="w-8 h-8 text-brand-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+						<h2 class="text-4xl font-display font-bold text-brand-primary">Itinerario del Viaje</h2>
+					</div>
+
+					
+					{/* OPCIÓN 1: PERNOCTE EN PARACAS */}
+					<div class="mb-16">
+						<h3 class="text-3xl font-display font-bold text-brand-accent mb-8 border-b-2 border-brand-accent/20 pb-4">Opción 1: Pernocte en Paracas</h3>
+						
+						<div class="relative border-l-4 border-brand-secondary pl-8 ml-4">
+							{/* Day 1 */}
+							<div class="mb-10 bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+								<div class="flex items-center gap-4 mb-4">
+									<div class="bg-brand-primary text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl">1</div>
+									<h3 class="text-2xl font-bold text-gray-800">DÍA 1: ISLAS BALLESTAS - PARACAS</h3>
+								</div>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									¡Embárcate en el deslizador y explora lo mejor de la vida marina! Diviértete con las focas, los leones marinos, los pingüinos de Humboldt y las gaviotas mientras se lucen en un espectáculo marítimo que no te puedes perder ¡Una maravillosa experiencia para los amantes del océano!
+								</p>
+								<h4 class="text-lg font-bold text-brand-accent mb-2">ISLAS BALLESTAS</h4>
+								<p class="text-gray-600 leading-relaxed">
+									Arribamos a Paracas y nos dirigimos al puerto el Chaco. Visita a las Islas Ballestas en un recorrido de 1 hr. 30 minutos, donde visitaremos la Reserva de Paracas y apreciamos la flora y fauna marina. Luego degustaremos de los dulces típicos de Paracas: Chocotejas, Galletas, tejas, entre otros.
+								</p>
+								<p class="text-gray-600 font-semibold mt-4">Pernocte en Paracas.</p>
+							</div>
+
+							{/* Day 2 */}
+							<div class="mb-10 bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+								<div class="flex items-center gap-4 mb-4">
+									<div class="bg-brand-primary text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl">2</div>
+									<h3 class="text-2xl font-bold text-gray-800">DÍA 2: HUACACHINA - LIMA</h3>
+								</div>
+								<p class="text-gray-600 leading-relaxed mb-4">Desayuno en el hotel, recojo de Paracas y traslado a Huacachina.</p>
+								
+								<h4 class="text-lg font-bold text-brand-accent mb-2">DEGUSTACIÓN DE VINOS</h4>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Al ritmo de poemas iremos degustando los mejores vinos, piscos y cremas de Ica. Disfrutaremos del ambiente de la bodega y tendremos un tiempo para fotos y compras.
+								</p>
+
+								<h4 class="text-lg font-bold text-brand-accent mb-2">HUACACHINA</h4>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Continuamos el recorrido y arribamos a Huacachina, uno de los atractivos más divertidos de la zona sur. Conocerás un oasis en medio del desierto, con una magnífica historia de sirenas.
+								</p>
+
+								<h4 class="text-lg font-bold text-brand-accent mb-2">TUBULARES Y SANDBOARDING</h4>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Nos subiremos a los Tubulares, conocidos también como los carros Areneros, donde alrededor de 40 minutos disfrutarás al máximo una aventura extraordinaria.
+								</p>
+								<p class="text-gray-600 font-semibold text-sm">22:00 PM. Aprox. arribo a Lima. Fin de los servicios.</p>
+							</div>
+							
+							{/* Optional Tours */}
+							<div class="mt-8 mb-10 bg-blue-50 p-6 rounded-xl border border-blue-100">
+								<h4 class="font-bold text-gray-900 mb-2">TOURS OPCIONALES DESDE PARACAS (Recomendados para días libres)</h4>
+								<p class="font-semibold text-brand-secondary mb-3">MINI BUGGIES ($40 x pareja) / ATV ($34 x pareja) por la Reserva Nacional de Paracas</p>
+								<p class="text-sm text-gray-700 mb-2"><strong>Duración:</strong> 2 Hrs. <strong>Turnos:</strong> 13:00 pm y 15:00 PM.</p>
+								<p class="text-sm text-gray-700 mb-4"><strong>No incluye:</strong> Impuestos turísticos RNP s/. 11 por persona.</p>
+								<p class="text-sm text-gray-600 mb-3 leading-relaxed">
+									<strong>Recorrido:</strong> Encuentro en el puerto El Chaco. Primera parada, PLAYA YUMAQUE. En esta playa podremos mojaruestros pies o tomar fotos para el recuerdo. Segunda parada, MIRADOR ISTMO, donde nos detendremos para tener buenas fotografías, además de tener una amplia visualización de la Península de Paracas. Última parada, PLAYA ROJA, desde su mirador podrás tomar fotografías panorámicas (no se podrá bajar a la orilla ya que es zona intangible). El Tour finaliza en el puerto.
+								</p>
+								<p class="text-xs font-semibold text-blue-800 bg-blue-100 inline-block px-2 py-1 rounded">
+									** Tour previa reserva anticipada hasta 1 día antes. Mínimo 02 pasajeros. Guiado turístico en español.
+								</p>
+							</div>
+						</div>
+
+						
+					</div>
+
+					{/* OPCIÓN 2: PERNOCTE EN ICA */}
+					<div class="mb-16">
+						<h3 class="text-3xl font-display font-bold text-brand-accent mb-8 border-b-2 border-brand-accent/20 pb-4">Opción 2: Pernocte en Ica</h3>
+						
+						<div class="relative border-l-4 border-brand-secondary pl-8 ml-4">
+							{/* Day 1 Ica */}
+							<div class="mb-10 bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+								<div class="flex items-center gap-4 mb-4">
+									<div class="bg-brand-primary text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl">1</div>
+									<h3 class="text-2xl font-bold text-gray-800">DÍA 1: ISLAS BALLESTAS - HUACACHINA</h3>
+								</div>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									¡Embárcate en el deslizador y explora lo mejor de la vida marina! Diviértete con las focas, los leones marinos, los pingüinos de Humboldt y las gaviotas mientras se lucen en un espectáculo marítimo que no te puedes perder ¡Una maravillosa experiencia para los amantes del océano!
+								</p>
+								
+								<h4 class="text-lg font-bold text-brand-accent mb-2">ISLAS BALLESTAS</h4>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Arribamos a Paracas y nos dirigimos al puerto el Chaco. Visita a las Islas Ballestas en un recorrido de 1 hr. 30 minutos, donde visitaremos la Reserva de Paracas y apreciamos la flora y fauna marina. Luego degustaremos de los dulces típicos de Paracas: Chocotejas, Galletas, tejas, entre otros.
+								</p>
+
+								<h4 class="text-lg font-bold text-brand-accent mb-2">DEGUSTACIÓN DE VINOS</h4>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Al ritmo de poemas iremos degustando los mejores vinos, piscos y cremas de Ica. Disfrutaremos del ambiente de la bodega y tendremos un tiempo para fotos y compras.
+								</p>
+
+								<h4 class="text-lg font-bold text-brand-accent mb-2">HUACACHINA</h4>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Continuamos el recorrido y arribamos a Huacachina, uno de los atractivos más divertidos de la zona sur. Conocerás un oasis en medio del desierto, con una magnífica historia de sirenas.
+								</p>
+
+								<h4 class="text-lg font-bold text-brand-accent mb-2">TUBULARES Y SANDBOARDING</h4>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Nos subiremos a los Tubulares, conocidos también como los carros Areneros, donde alrededor de 40 minutos disfrutarás al máximo una aventura extraordinaria.
+								</p>
+								<p class="text-gray-600 font-semibold text-sm">Tour finaliza en Huacachina. Pernocte en Ica.</p>
+							</div>
+
+							{/* Day 2 Ica */}
+							<div class="mb-10 bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+								<div class="flex items-center gap-4 mb-4">
+									<div class="bg-brand-primary text-white w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl">2</div>
+									<h3 class="text-2xl font-bold text-gray-800">DÍA 2: HUACACHINA - LIMA</h3>
+								</div>
+								<p class="text-gray-600 leading-relaxed mb-4">Desayuno en el Hotel. Mañana libre.</p>
+								<p class="text-gray-600 font-semibold mb-2 text-sm">15:30 PM. Aprox. recojo de Huacachina.</p>
+								<p class="text-gray-600 font-semibold text-sm">22:00 PM. Aprox. arribo a Lima. Fin de los servicios.</p>
+							</div>
+						</div>
+
+						
+					</div>
+					
+					
+				</div>
+
+				{/* Info Column */}
+				<div class="lg:col-span-1 space-y-8">
+					<div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
+						<div class="bg-brand-primary p-6">
+							<h3 class="text-2xl font-display font-bold text-white flex items-center gap-2">
+								<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+								Incluye
+							</h3>
+						</div>
+						<div class="p-6">
+							<ul class="space-y-3 text-sm text-gray-700">
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Transporte turístico IDA Y VUELTA</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Guía de Turismo español Bilingüe</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> 01 Noche de alojamiento en PARACAS o ICA</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> 01 desayuno en el hotel</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Visita a la bahía de Paracas y Puerto el chaco</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Degustación de dulces típicos</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Visita a las Islas Ballestas y Paseo en deslizador</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Observación del Candelabro y Fauna Marina</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Visita Bodega de Vinos en Ica + Degustación</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Visita a la Laguna Huacachina</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Paseo en Tubulares + Sandboard</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Asistencia durante el viaje</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
+						<div class="bg-gray-100 p-6">
+							<h3 class="text-2xl font-display font-bold text-gray-800 flex items-center gap-2">
+								<svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+								No Incluye
+							</h3>
+						</div>
+						<div class="p-6">
+							<ul class="space-y-3 text-sm text-gray-600">
+								<li class="flex items-start gap-2"><span class="text-gray-400 font-bold">•</span> Alimentos (Almuerzos y cenas)</li>
+								<li class="flex items-start gap-2"><span class="text-gray-400 font-bold">•</span> Impuestos turísticos de Paracas + Huacachina s/.20 o $6</li>
+								<li class="flex items-start gap-2"><span class="text-gray-400 font-bold">•</span> Traslado a hoteles en Paracas o Ica ciudad</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
+						<div class="bg-brand-secondary/10 p-6">
+							<h3 class="text-2xl font-display font-bold text-brand-secondary flex items-center gap-2">
+								<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Embarques y Recojos
+							</h3>
+						</div>
+						<div class="p-6">
+							<h4 class="font-bold text-gray-900 mb-3 text-sm uppercase">Puntos de Embarque</h4>
+							<ul class="space-y-2 text-sm text-gray-600 mb-6">
+								<li class="flex gap-2"><strong>03:45 AM</strong> <span>PLAZA NORTE (Chifa Nuevo Mundo)</span></li>
+								<li class="flex gap-2"><strong>04:10 AM</strong> <span>SAN ISIDRO (Javier Prado con Arequipa)</span></li>
+								<li class="flex gap-2"><strong>04:20 AM</strong> <span>MIRAFLORES (Falabella)</span></li>
+								<li class="flex gap-2"><strong>04:30 AM</strong> <span>MIRAFLORES (Larcomar)</span></li>
+								<li class="flex gap-2"><strong>04:45 AM</strong> <span>PTE. PRÓCERES / ALIPIO</span></li>
+							</ul>
+
+							<h4 class="font-bold text-gray-900 mb-3 text-sm uppercase">Recojo en Hoteles</h4>
+							<ul class="space-y-2 text-sm text-gray-600 mb-4">
+								<li class="flex gap-2"><strong>04:10 AM</strong> <span>Hoteles céntricos de San Isidro</span></li>
+								<li class="flex gap-2"><strong>04:25 AM</strong> <span>Hoteles céntricos de Miraflores</span></li>
+								<li class="flex gap-2"><strong>04:40 AM</strong> <span>Hoteles céntricos de Barranco</span></li>
+							</ul>
+							<p class="text-xs text-gray-500 italic border-t border-gray-100 pt-3">
+								* Enviar la ubicación del hotel para verificar la cobertura.
+							</p>
+						</div>
+					</div>
+
+					<BookingWidget client:load tourTitle="Paracas y Huacachina" />
+				</div>
+			</div>
+		</div>
+	</main>
+</Layout>

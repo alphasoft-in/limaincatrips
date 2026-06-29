@@ -1,11 +1,106 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.tsx';
+import Hero from '../components/Hero.tsx';
+import Destinations from '../components/Destinations.tsx';
+import FeaturedTours from '../components/FeaturedTours.tsx';
+import { getCollection } from 'astro:content';
+import { ui, defaultLang } from '../i18n/ui';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const lang = defaultLang;
+const allTours = await getCollection('tours');
+
+const selectedSlugs = [
+  'ica-paracas-islas-ballestas',
+  'lima-miraflores-city-tour',
+  'cusco-tradicional-4d-3n',
+  'tarapoto-4d-3n',
+  'cajamarca-4d-3n',
+  'iquitos-4d-3n'
+];
+
+const collectionTours = selectedSlugs.flatMap(slug => {
+  const t = allTours.find(tour => tour.id === slug);
+  if (!t) return [];
+  return [{
+    id: t.id,
+    title: t.data.title,
+    subtitle: t.data.subtitle,
+    heroImage: t.data.heroImage,
+    priceLabel: t.data.priceLabel,
+    badges: t.data.badges,
+    destination: t.data.destination
+  }];
+});
+
+const featuredToursData = collectionTours.slice(0, 6);
+
+const translations = {
+	sectionTitle: ui[lang]['featured.title'],
+	sectionSubtitle: ui[lang]['featured.subtitle'],
+	detailsBtn: ui[lang]['btn.details']
+};
+
+const whatsappMessage = `¡Hola Lima Inka Trips! 🙋‍♂️🙋‍♀️
+
+Estoy muy interesado en sus tours y me gustaría que me ayuden a planificar mi próximo viaje por el Perú. 🚌🗺️
+
+¿Me podrían brindar más información, por favor? 😊`;
+const whatsappUrl = `https://wa.me/51936976776?text=${encodeURIComponent(whatsappMessage)}`;
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Tours Premium en Perú | Lima Inka Trip">
+	<Navbar client:load currentPath={Astro.url.pathname} />
+	<main>
+		<Hero client:load lang={lang} />
+		<Destinations lang={lang} />
+		
+		{/* Featured Tours Section */}
+		<FeaturedTours 
+			client:load 
+			tours={featuredToursData} 
+			lang={lang} 
+			translations={translations} 
+		/>
+		
+		{/* More sections can be added here, such as Testimonials, Tours list, Contact Form, etc. */}
+		<section id="about" class="py-24 bg-brand-light">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12">
+				<div class="w-full md:w-1/2">
+					<img 
+						src="/experiencias.png" 
+						alt="Peruvian Culture" 
+						class="rounded-2xl shadow-2xl"
+					/>
+				</div>
+				<div class="w-full md:w-1/2">
+					<span class="text-brand-accent font-bold tracking-wider uppercase text-sm">Sobre Nosotros</span>
+					<h2 class="mt-2 text-3xl md:text-4xl font-display font-bold text-brand-primary mb-6">Experiencias Auténticas <br/>Diseñadas para Ti</h2>
+					<p class="text-gray-600 mb-6 text-lg">
+						Lima Inka Trip se dedica a ofrecer experiencias de viaje premium e inolvidables en todo el Perú. Desde la belleza costera de Lima hasta la majestuosidad milenaria de los Andes, nos aseguramos de que cada momento de tu viaje sea extraordinario.
+					</p>
+					<ul class="space-y-4 mb-8">
+						<li class="flex items-center text-gray-700">
+							<svg class="w-6 h-6 text-brand-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+							Guías Locales Expertos
+						</li>
+						<li class="flex items-center text-gray-700">
+							<svg class="w-6 h-6 text-brand-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+							Alojamiento Premium
+						</li>
+						<li class="flex items-center text-gray-700">
+							<svg class="w-6 h-6 text-brand-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+							Itinerarios Personalizados
+						</li>
+					</ul>
+					<a href={whatsappUrl} target="_blank" class="inline-flex items-center gap-2 px-8 py-4 bg-brand-primary text-white font-semibold rounded-full hover:bg-gray-800 transition-colors">
+						<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+						Contacta a nuestros expertos
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+
 </Layout>

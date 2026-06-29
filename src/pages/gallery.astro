@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.tsx';
+import GalleryComponent from '../components/Gallery.tsx';
+
+const galleryImages = Array.from({ length: 15 }, (_, i) => ({
+  id: `${i + 1}`,
+  url: `/galeria/${i + 1}.jpeg`,
+  title: 'Lima Inka Trip',
+  description: 'Descubre los increíbles paisajes y experiencias que te esperan con Lima Inka Trip.'
+}));
+---
+
+<Layout title="Galería de Fotos | Lima Inka Trip">
+	<Navbar client:load solid={true} currentPath={Astro.url.pathname} />
+	
+	<main class="pt-24 min-h-screen bg-white">
+		<GalleryComponent 
+      client:load 
+      images={galleryImages} 
+      title="Nuestra Galería" 
+      subtitle="Momentos Inolvidables" 
+    />
+	</main>
+</Layout>

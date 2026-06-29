@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.tsx';
+---
+
+<Layout title="Nosotros | Lima Inka Trip">
+	<Navbar client:load solid={true} currentPath={Astro.url.pathname} />
+	<main class="pt-24 min-h-screen">
+		<section class="py-24 bg-brand-light">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12">
+				<div class="w-full md:w-1/2">
+					<img 
+						src="/experiencias.png" 
+						alt="Peruvian Culture" 
+						class="rounded-2xl shadow-2xl"
+					/>
+				</div>
+				<div class="w-full md:w-1/2">
+					<span class="text-brand-accent font-bold tracking-wider uppercase text-sm">Sobre Nosotros</span>
+					<h1 class="mt-2 text-3xl md:text-4xl font-display font-bold text-brand-primary mb-6">Experiencias Auténticas <br/>Diseñadas para Ti</h1>
+					<p class="text-gray-600 mb-6 text-lg">
+						Lima Inka Trip se dedica a ofrecer experiencias de viaje premium e inolvidables en todo el Perú. Desde la belleza costera de Lima hasta la majestuosidad milenaria de los Andes, nos aseguramos de que cada momento de tu viaje sea extraordinario.
+					</p>
+				</div>
+			</div>
+		</section>
+	</main>
+</Layout>

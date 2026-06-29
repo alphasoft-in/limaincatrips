@@ -1,0 +1,98 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.tsx';
+import Hero from '../../components/Hero.tsx';
+import Destinations from '../../components/Destinations.tsx';
+import FeaturedTours from '../../components/FeaturedTours.tsx';
+import { getCollection } from 'astro:content';
+import { ui } from '../../i18n/ui';
+
+const lang = 'en';
+const allTours = await getCollection('tours');
+
+const selectedSlugs = [
+  'ica-paracas-islas-ballestas',
+  'lima-miraflores-city-tour',
+  'cusco-tradicional-4d-3n',
+  'tarapoto-4d-3n',
+  'cajamarca-4d-3n',
+  'iquitos-4d-3n'
+];
+
+const collectionTours = selectedSlugs.flatMap(slug => {
+  const t = allTours.find(tour => tour.id === slug);
+  if (!t) return [];
+  return [{
+    id: t.id,
+    title: t.data.title,
+    subtitle: t.data.subtitle,
+    heroImage: t.data.heroImage,
+    priceLabel: t.data.priceLabel,
+    badges: t.data.badges,
+    destination: t.data.destination
+  }];
+});
+
+const featuredToursData = collectionTours.slice(0, 6);
+
+const translations = {
+	sectionTitle: ui[lang]['featured.title'],
+	sectionSubtitle: ui[lang]['featured.subtitle'],
+	detailsBtn: ui[lang]['btn.details']
+};
+---
+
+<Layout title="Premium Tours in Peru" lang="en">
+	<Navbar client:load currentPath={Astro.url.pathname} lang="en" />
+	<main>
+		<Hero client:load lang={lang} />
+		<Destinations lang={lang} />
+		
+		{/* Featured Tours Section */}
+		<FeaturedTours 
+			client:load 
+			tours={featuredToursData} 
+			lang={lang} 
+			translations={translations} 
+		/>
+		
+		{/* More sections can be added here, such as Testimonials, Tours list, Contact Form, etc. */}
+		<section id="about" class="py-24 bg-brand-light">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12">
+				<div class="w-full md:w-1/2">
+					<img 
+						src="/experiencias.png" 
+						alt="Peruvian Culture" 
+						class="rounded-2xl shadow-2xl"
+					/>
+				</div>
+				<div class="w-full md:w-1/2">
+					<span class="text-brand-accent font-bold tracking-wider uppercase text-sm">About Us</span>
+					<h2 class="mt-2 text-4xl font-display font-bold text-brand-primary mb-6">Authentic Experiences <br/>Curated for You</h2>
+					<p class="text-gray-600 mb-6 text-lg">
+						Lima Inka Trip is dedicated to providing premium, unforgettable travel experiences across Peru. From the coastal beauty of Lima to the ancient majesty of the Andes, we ensure every moment of your journey is extraordinary.
+					</p>
+					<ul class="space-y-4 mb-8">
+						<li class="flex items-center text-gray-700">
+							<svg class="w-6 h-6 text-brand-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+							Expert Local Guides
+						</li>
+						<li class="flex items-center text-gray-700">
+							<svg class="w-6 h-6 text-brand-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+							Premium Accommodations
+						</li>
+						<li class="flex items-center text-gray-700">
+							<svg class="w-6 h-6 text-brand-accent mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+							Personalized Itineraries
+						</li>
+					</ul>
+					<a href="#contact" class="inline-block px-8 py-4 bg-brand-primary text-white font-semibold rounded-full hover:bg-gray-800 transition-colors">
+						Contact Our Experts
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+
+</Layout>

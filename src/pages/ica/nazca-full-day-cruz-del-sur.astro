@@ -1,0 +1,149 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.tsx';
+import BookingWidget from '../../components/BookingWidget.tsx';
+---
+
+<Layout title="Full Day Nazca en Cruz del Sur - Lima Inka Trip">
+	<Navbar client:load solid={true} currentPath={Astro.url.pathname} />
+	
+	<main class="min-h-screen bg-brand-light">
+		{/* Hero Section */}
+		<div class="relative h-[60vh] bg-brand-primary overflow-hidden">
+			<img 
+				src="https://images.unsplash.com/photo-1621213061614-23ee3a479261?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" 
+				alt="Sobrevuelo Líneas de Nazca" 
+				class="absolute inset-0 w-full h-full object-cover opacity-60 mix-blend-overlay"
+			/>
+			<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
+			<div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 pt-24">
+				<span class="text-brand-secondary font-bold tracking-widest uppercase text-lg mb-4 block drop-shadow-lg">Aventura y Misterio</span>
+				<h1 class="text-4xl md:text-5xl lg:text-6xl text-center font-display font-bold text-white mb-6 drop-shadow-xl max-w-4xl">Full Day Nazca Sobrevuelo</h1>
+				<div class="inline-block px-6 py-2 bg-brand-secondary text-white rounded-full font-bold text-xl shadow-lg">
+					Full Day </div>
+			</div>
+		</div>
+
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+			<div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+				
+				{/* Itinerary Column */}
+				<div class="lg:col-span-2">
+					<div class="flex items-center gap-3 mb-8">
+						<svg class="w-8 h-8 text-brand-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+						<h2 class="text-4xl font-display font-bold text-brand-primary">Itinerario del Viaje</h2>
+					</div>
+					
+					<div class="mb-16">
+						<div class="relative border-l-4 border-brand-secondary pl-8 ml-4">
+							<div class="mb-10 bg-white p-8 rounded-2xl shadow-sm border border-gray-100">
+								
+								<h4 class="text-lg font-bold text-brand-accent mb-2">20:45 PM RECOJO DE HOTEL</h4>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Recojo de su hotel para traslado a terminal (según tarifa: Miraflores, San Isidro o Barranco).
+								</p>
+
+								<h4 class="text-lg font-bold text-brand-accent mb-2">21:30 PM LLEGADA AL TERMINAL</h4>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Llegada a terminal Cruz del Sur Javier Prado (Av Javier Prado Este 1109, La Victoria 15034).
+								</p>
+
+								<h4 class="text-lg font-bold text-brand-accent mb-2">22:15 PM PARTIDA A NAZCA</h4>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Partida a Nazca en servicio Interprovincial Cruz del Sur - 2do piso.
+								</p>
+
+								<h4 class="text-lg font-bold text-brand-accent mb-2">05:30 AM ARRIBO A NAZCA</h4>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Arribo al terminal de Nazca, tiempo para desayuno en el lugar.
+								</p>
+
+								<h4 class="text-lg font-bold text-brand-accent mb-2">07:30 AM RECOJO</h4>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Aprox. Recojo del terminal Cruz del Sur en Nazca.
+								</p>
+
+								<h4 class="text-lg font-bold text-brand-accent mb-2">08:00 AM AERÓDROMO DE NAZCA</h4>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Pasajero debe estar en el aeropuerto y realizar check in en counter de aerolínea.
+								</p>
+
+								<h4 class="text-lg font-bold text-brand-accent mb-2">09:30 AM SOBREVUELO A LAS LÍNEAS DE NAZCA</h4>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Aprox. Según programación, inicio del sobrevuelo. En este Tour Aéreo en una Avioneta Cessna, con asientos individuales y ventanas panorámicas podrás captar en fotos y videos las increíbles formas trazadas en el desierto de Nazca. Estas famosas líneas han sido declaradas por la UNESCO como Patrimonio Cultural de la Humanidad desde 1994, debido a su misterioso origen, el cual causa gran intriga a millones de personas alrededor del mundo.
+								</p>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									La avioneta pasará 2 veces por cada figura, con el fin de que los pasajeros de ambos lados del avión puedan apreciarlas bien y tomen las fotos de las figuras, incluso se hará un ligero movimiento giratorio para obtener mejores vistas. Algunas de las figuras que verás incluyen la ballena, el trapezoide, el mono, el perro, el cóndor, la araña, el colibrí, el alcatraz, el loro, el árbol, y las manos. El emocionante vuelo tendrá una duración de 30 minutos.
+								</p>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Finalizado el vuelo, recojo del aeródromo y traslado al terminal en Nazca. Tiempo libre para su almuerzo cerca a la zona.
+								</p>
+
+								<h4 class="text-lg font-bold text-brand-accent mb-2">14:30 PM PRESENTACIÓN EN TERMINAL</h4>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Deberán presentarse en el Terminal de Cruz del Sur de Nazca.
+								</p>
+
+								<h4 class="text-lg font-bold text-brand-accent mb-2">15:00 PM PARTIDA A LIMA</h4>
+								<p class="text-gray-600 leading-relaxed mb-4">
+									Partida del bus del terminal de Cruz del Sur hacia Lima (pasajero debe estar 45 min. antes en el terminal).
+								</p>
+								
+								<div class="border-t border-gray-100 pt-4 mt-4">
+									<ul class="space-y-2 text-sm text-gray-600 font-semibold">
+										<li class="flex justify-between"><span>22:30 PM Aprox.</span> <span>Llegada al terminal de Cruz del Sur en Lima.</span></li>
+									</ul>
+									<p class="text-gray-500 text-xs mt-2 italic">Solo en tarifa con recojo, incluye traslado a su hotel en Lima. FIN DE LOS SERVICIOS.</p>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+
+					
+				</div>
+
+				{/* Info Column */}
+				<div class="lg:col-span-1 space-y-8">
+					<div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
+						<div class="bg-brand-primary p-6">
+							<h3 class="text-2xl font-display font-bold text-white flex items-center gap-2">
+								<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+								Incluye
+							</h3>
+						</div>
+						<div class="p-6">
+							<ul class="space-y-3 text-sm text-gray-700">
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Traslado de hotel en Miraflores, San Isidro o Barranco a terminal Cruz del Sur ida y vuelta. (según tarifa).</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Tickets de bus Lima / Nazca / Lima, vía Cruz del Sur 2do piso (asiento 140°).</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Traslado terminal de Nazca / aeropuerto / terminal de Nazca.</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Ticket Aéreo para Sobrevuelo a las líneas de Nazca, desde Nazca (30 Minutos).</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Recorrido por 13 figuras: Colibrí, Araña, Mono, Cóndor, Árbol, Perro, Manos, Ballena, Alcatraz, Trapecio, Astronauta, Compás y Papagayo.</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Piloto bilingüe (español - inglés).</li>
+								<li class="flex items-start gap-2"><span class="text-brand-secondary font-bold">•</span> Asistencia permanente.</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
+						<div class="bg-gray-100 p-6">
+							<h3 class="text-2xl font-display font-bold text-gray-800 flex items-center gap-2">
+								<svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+								No Incluye
+							</h3>
+						</div>
+						<div class="p-6">
+							<ul class="space-y-3 text-sm text-gray-600">
+								<li class="flex items-start gap-2"><span class="text-gray-400 font-bold">•</span> Tasa Aeroportuaria S/.77.00 (Pago obligatorio que se realiza en efectivo soles en ventanilla del aeropuerto).</li>
+								<li class="flex items-start gap-2"><span class="text-gray-400 font-bold">•</span> Alimentos.</li>
+							</ul>
+						</div>
+					</div>
+
+					<BookingWidget client:load tourTitle="Full Day Nazca Sobrevuelo" />
+				</div>
+			</div>
+		</div>
+	</main>
+</Layout>

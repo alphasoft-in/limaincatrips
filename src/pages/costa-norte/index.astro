@@ -1,0 +1,139 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.tsx';
+---
+
+<Layout title="Tours en la Costa Norte - Lima Inka Trip">
+	<Navbar client:load solid={true} currentPath=`/costa-norte` />
+	<main class="pt-24 min-h-screen bg-gray-50">
+		<section class="py-12">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
+				<span class="text-brand-accent font-bold tracking-wider uppercase text-sm">Destino Arqueológico y Playas</span>
+				<h1 class="mt-2 text-4xl font-display font-bold text-brand-primary mb-6">Paquetes Turísticos en la Costa Norte</h1>
+				<p class="text-gray-600 max-w-2xl mx-auto">Explora la ruta Moche, descubre al Señor de Sipán, recorre la imponente Chan Chan y relájate en las hermosas playas del norte peruano.</p>
+			</div>
+
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+					
+					{/* Tour Card 11D/10N */}
+					<a href="/costa-norte/norte-de-peru-11d-10n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1548074900-514d3dafb9c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Tours En El Norte De Peru 11D 10N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								11D / 10N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Gran Expedición
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Tours En El Norte De Peru</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">El viaje más completo. Recorre desde Trujillo hasta Tumbes, pasando por Chiclayo, Piura, Chachapoyas y todos los secretos de la costa norte y nororiente.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+					
+					{/* Tour Card 7D/6N */}
+					<a href="/costa-norte/costa-norte-7d-6n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Tour Costa Norte de Perú 7D 6N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								7D / 6N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Ruta Moche
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Tour Costa Norte de Perú</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Una semana entera dedicada a explorar las culturas preincas Moche, Chimú y Sicán, junto a la deliciosa gastronomía norteña.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card 5D/4N Explore */}
+					<a href="/costa-norte/explore-el-norte-5d-4n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1577700203590-7fbf295321f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Explore el Norte de Perú 5D 4N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								5D / 4N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Arqueología
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Explore el Norte de Perú</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">El circuito clásico Trujillo - Chiclayo. Conoce la ciudadela de barro más grande del mundo y la fastuosa tumba del Señor de Sipán.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card 5D/4N Nororiente */}
+					<a href="/chachapoyas/nororiente-del-peru-5d-4n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="https://images.unsplash.com/photo-1542317826-646700c926f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								alt="Nororiente Del Perú 5D 4N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								5D / 4N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Aventura Nororiental
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Paquete Turístico Nororiente Del Perú</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Una fascinante transición desde los desiertos costeros y sus misterios arqueológicos hacia el imponente bosque de nubes andino.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									Ver detalles
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+				</div>
+			</div>
+		</section>
+	</main>
+</Layout>
