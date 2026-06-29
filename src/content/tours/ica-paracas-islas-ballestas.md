@@ -1,7 +1,7 @@
 ---
 destination: "ica"
 title: "Ica y Paracas: Islas Ballestas y Huacachina"
-metaTitle: "Ica y Paracas Full Day - Islas Ballestas y Huacachina | Lima Inka Trip"
+metaTitle: "Ica y Paracas Full Day - Islas Ballestas y Huacachina | Lima Inca Trips"
 subtitle: "Una aventura en el sur: vida silvestre, vino y dunas"
 heroImage: "/destacados/islas-ballestas.png"
 badges:

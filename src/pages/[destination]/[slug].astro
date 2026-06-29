@@ -24,7 +24,7 @@ const data = tour.data;
 const whatsappLink = `https://wa.me/51936976776?text=${encodeURIComponent(data.whatsappText || `Hola, quisiera información sobre el tour ${data.title}`)}`;
 ---
 
-<Layout title={data.metaTitle || `${data.title} - Lima Inka Trip`}>
+<Layout title={data.metaTitle || `${data.title} - Lima Inca Trips`}>
 	<Navbar client:load solid={true} currentPath={Astro.url.pathname} />
 	
 	<main class="min-h-screen bg-brand-light">

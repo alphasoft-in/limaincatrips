@@ -6,12 +6,12 @@ import GalleryComponent from '../components/Gallery.tsx';
 const galleryImages = Array.from({ length: 15 }, (_, i) => ({
   id: `${i + 1}`,
   url: `/galeria/${i + 1}.jpeg`,
-  title: 'Lima Inka Trip',
-  description: 'Descubre los increíbles paisajes y experiencias que te esperan con Lima Inka Trip.'
+  title: 'Lima Inca Trips',
+  description: 'Descubre los increíbles paisajes y experiencias que te esperan con Lima Inca Trips.'
 }));
 ---
 
-<Layout title="Galería de Fotos | Lima Inka Trip">
+<Layout title="Galería de Fotos | Lima Inca Trips">
 	<Navbar client:load solid={true} currentPath={Astro.url.pathname} />
 	
 	<main class="pt-24 min-h-screen bg-white">

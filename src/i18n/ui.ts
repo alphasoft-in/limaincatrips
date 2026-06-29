@@ -23,7 +23,7 @@ export const ui = {
     'nav.menu': 'Menú',
     'nav.gallery': 'Galería',
     
-    'hero.title': 'Lima Inka Trip',
+    'hero.title': 'Lima Inca Trips',
     'hero.subtitle': 'Descubre la magia del Perú',
     
     'featured.title': 'Nuestros Paquetes',
@@ -61,7 +61,7 @@ export const ui = {
     'nav.menu': 'Menu',
     'nav.gallery': 'Gallery',
     
-    'hero.title': 'Lima Inka Trip',
+    'hero.title': 'Lima Inca Trips',
     'hero.subtitle': 'Discover the magic of Peru',
     
     'featured.title': 'Our Packages',

@@ -1,7 +1,7 @@
 ---
 destination: "lima"
 title: "City Tour Lima y Miraflores"
-metaTitle: "City Tour Lima y Miraflores - Lima Inka Trip"
+metaTitle: "City Tour Lima y Miraflores - Lima Inca Trips"
 subtitle: "Descubre la Ciudad de los Reyes"
 heroImage: "/destacados/miraflores.png"
 badges:
