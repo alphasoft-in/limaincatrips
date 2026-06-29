@@ -1,5 +1,5 @@
 ---
-destination: "chachapoyas"
+destination: "tours"
 title: "City Tour Chachapoyas"
 subtitle: "Tours en chachapoyas"
 heroImage: "/chachapoyas/city-tour-chachapoyas.png"

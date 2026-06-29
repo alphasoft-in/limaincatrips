@@ -1,5 +1,5 @@
 ---
-destination: "selva-central"
+destination: "tours"
 title: "Selva Central: Ruta del Café"
 subtitle: "Tours en selva-central"
 heroImage: "/selva-central/villa-rica.png"

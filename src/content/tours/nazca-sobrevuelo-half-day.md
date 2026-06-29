@@ -1,5 +1,5 @@
 ---
-destination: "ica"
+destination: "tours"
 title: "Sobrevuelo Líneas de Nazca"
 subtitle: "Tours en ica"
 heroImage: "/ica/sobrevuelo-lineas-de-nazca.png"

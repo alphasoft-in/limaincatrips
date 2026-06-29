@@ -1,5 +1,5 @@
 ---
-destination: "chachapoyas"
+destination: "tours"
 title: "Karajía & Caverna Quiocta"
 subtitle: "Tours en chachapoyas"
 heroImage: "/chachapoyas/karajia.png"

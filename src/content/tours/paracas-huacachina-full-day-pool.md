@@ -1,5 +1,5 @@
 ---
-destination: "ica"
+destination: "tours"
 title: "Paracas & Huacachina Pool Tour"
 subtitle: "Tours en ica"
 heroImage: "/ica/paracas-fullday.png"

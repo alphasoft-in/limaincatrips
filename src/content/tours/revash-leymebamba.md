@@ -1,5 +1,5 @@
 ---
-destination: "chachapoyas"
+destination: "tours"
 title: "Revash & Leymebamba"
 subtitle: "Tours en chachapoyas"
 heroImage: "/chachapoyas/leymebamba.png"

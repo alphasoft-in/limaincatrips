@@ -1,5 +1,5 @@
 ---
-destination: "ica"
+destination: "tours"
 title: "Paracas, Huacachina y Nazca"
 subtitle: "Tours en ica"
 heroImage: "/ica/huacachina-nazca2d1n.png"

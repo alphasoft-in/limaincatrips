@@ -1,5 +1,5 @@
 ---
-destination: "ica"
+destination: "tours"
 title: "Nazca Full Day Vía Cruz del Sur"
 subtitle: "Tours en ica"
 heroImage: "/ica/nazca-fullday.png"

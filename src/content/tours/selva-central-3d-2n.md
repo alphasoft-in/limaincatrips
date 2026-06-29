@@ -1,5 +1,5 @@
 ---
-destination: "selva-central"
+destination: "tours"
 title: "Selva Central: Aventura y Tradición"
 subtitle: "Tours en selva-central"
 heroImage: "/selva-central/oxapampa.png"

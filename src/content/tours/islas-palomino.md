@@ -1,5 +1,5 @@
 ---
-destination: "lima"
+destination: "tours"
 title: "Islas Palomino"
 subtitle: "Tours en lima"
 heroImage: "https://images.unsplash.com/photo-1596700512604-bb703b688c22?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"

@@ -1,5 +1,5 @@
 ---
-destination: "selva-central"
+destination: "tours"
 title: "Selva Central: Escapada Corta"
 subtitle: "Tours en selva-central"
 heroImage: "/selva-central/perene.png"

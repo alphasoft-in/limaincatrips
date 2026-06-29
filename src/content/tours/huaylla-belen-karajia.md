@@ -1,5 +1,5 @@
 ---
-destination: "chachapoyas"
+destination: "tours"
 title: "Huaylla Belén & Karajía"
 subtitle: "Tours en chachapoyas"
 heroImage: "/chachapoyas/huaylla-belen.png"

@@ -1,5 +1,5 @@
 ---
-destination: "tarapoto"
+destination: "tours"
 title: "Catarata de Ahuashiyacu"
 subtitle: "Tours en tarapoto"
 heroImage: "/tarapoto/catarata-ahuashiyacu.png"

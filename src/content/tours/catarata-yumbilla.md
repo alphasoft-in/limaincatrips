@@ -1,5 +1,5 @@
 ---
-destination: "chachapoyas"
+destination: "tours"
 title: "Catarata Yumbilla"
 subtitle: "Tours en chachapoyas"
 heroImage: "/chachapoyas/yumbilla.png"
