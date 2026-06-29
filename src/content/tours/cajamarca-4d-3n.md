@@ -2,7 +2,7 @@
 destination: "cajamarca"
 title: "Cajamarca Destacado"
 subtitle: "Explora la región de Cajamarca"
-heroImage: "/destacados/cajamarca-destacado.png"
+heroImage: "/cajamarca/cajamarca4d3n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Cajamarca Destacado de 4D / 3N"

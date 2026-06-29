@@ -2,7 +2,7 @@
 destination: "iquitos"
 title: "Iquitos Aventura Selva"
 subtitle: "Explora la región de Iquitos"
-heroImage: "https://images.unsplash.com/photo-1552528761-424a56a6ea79?w=800"
+heroImage: "/iquitos/iquitos-5d4n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Iquitos Aventura Selva de 5D / 4N"

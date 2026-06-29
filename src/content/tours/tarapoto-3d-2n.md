@@ -2,7 +2,7 @@
 destination: "tarapoto"
 title: "Tarapoto Express"
 subtitle: "Explora la región de Tarapoto"
-heroImage: "https://images.unsplash.com/photo-1621217036239-0fc4e98f44ff?w=800"
+heroImage: "/tarapoto/tarapoto-3d2n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Tarapoto Express de 3D / 2N"

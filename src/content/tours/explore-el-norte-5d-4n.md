@@ -2,7 +2,7 @@
 destination: "costa-norte"
 title: "Explore el Norte"
 subtitle: "Explora la región de Costa Norte"
-heroImage: "https://images.unsplash.com/photo-1619472391030-58fbbd34208a?w=800"
+heroImage: "/costa-norte/costa-norte5d4n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Explore el Norte de 5D / 4N"

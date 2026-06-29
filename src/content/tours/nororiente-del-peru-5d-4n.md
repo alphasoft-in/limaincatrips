@@ -2,7 +2,7 @@
 destination: "chachapoyas"
 title: "Ruta Nororiente"
 subtitle: "Explora la región de Costa Norte"
-heroImage: "https://images.unsplash.com/photo-1518182170546-076616fd7209?w=800"
+heroImage: "/costa-norte/costa-norte-nororiente5d4n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Ruta Nororiente de 5D / 4N"

@@ -2,7 +2,7 @@
 destination: "pacaya-samiria"
 title: "Pacaya Samiria desde Tarapoto"
 subtitle: "Explora la región de Pacaya Samiria"
-heroImage: "https://images.unsplash.com/photo-1621217036239-0fc4e98f44ff?w=800"
+heroImage: "/pacaya-samiria/pacaya-samiria-8d7n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Pacaya Samiria desde Tarapoto de 8D / 7N"

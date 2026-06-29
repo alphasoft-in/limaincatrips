@@ -2,7 +2,7 @@
 destination: "tarapoto"
 title: "Reserva Santa Elena"
 subtitle: "Explora la región de Tarapoto"
-heroImage: "https://images.unsplash.com/photo-1596423735880-5f2a689b903e?w=800"
+heroImage: "/tarapoto/reserva-santa-elena.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Reserva Santa Elena de Full Day"

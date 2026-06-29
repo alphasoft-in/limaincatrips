@@ -2,7 +2,7 @@
 destination: "cusco"
 title: "Cusco Mágico"
 subtitle: "Explora la región de Cusco"
-heroImage: "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=800"
+heroImage: "/cusco/cusco5d4n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Cusco Mágico de 5D / 4N"

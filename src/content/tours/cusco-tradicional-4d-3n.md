@@ -2,7 +2,7 @@
 destination: "cusco"
 title: "Cusco Tradicional"
 subtitle: "Explora la región de Cusco"
-heroImage: "/destacados/cusco-tradicional.png"
+heroImage: "/cusco/cusco4d3n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Cusco Tradicional de 4D / 3N"

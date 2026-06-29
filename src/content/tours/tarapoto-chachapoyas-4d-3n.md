@@ -2,7 +2,7 @@
 destination: "tarapoto"
 title: "Tarapoto & Chachapoyas Express"
 subtitle: "Explora la región de Tarapoto"
-heroImage: "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=800"
+heroImage: "/tarapoto/tarapoto-chachapoyas-4d3n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Tarapoto & Chachapoyas Express de 4D / 3N"

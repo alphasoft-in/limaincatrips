@@ -2,7 +2,7 @@
 destination: "cajamarca"
 title: "Cajamarca Express"
 subtitle: "Explora la región de Cajamarca"
-heroImage: "https://images.unsplash.com/photo-1629858348881-344cb8f882a0?w=800"
+heroImage: "/cajamarca/cajamarca3d2n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Cajamarca Express de 3D / 2N"

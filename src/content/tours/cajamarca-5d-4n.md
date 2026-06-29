@@ -2,7 +2,7 @@
 destination: "cajamarca"
 title: "Cajamarca Completo"
 subtitle: "Explora la región de Cajamarca"
-heroImage: "https://images.unsplash.com/photo-1548074900-514d3dafb9c1?w=800"
+heroImage: "/cajamarca/cajamarca5d4n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Cajamarca Completo de 5D / 4N"

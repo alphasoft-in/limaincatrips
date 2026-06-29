@@ -2,7 +2,7 @@
 destination: "tarapoto"
 title: "Tarapoto Clásico"
 subtitle: "Explora la región de Tarapoto"
-heroImage: "/destacados/tarapoto-clasico.png"
+heroImage: "/tarapoto/tarapoto-4d3n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Tarapoto Clásico de 4D / 3N"

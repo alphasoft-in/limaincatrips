@@ -2,7 +2,7 @@
 destination: "pacaya-samiria"
 title: "Exploración Pacaya Samiria"
 subtitle: "Explora la región de Pacaya Samiria"
-heroImage: "https://images.unsplash.com/photo-1579503610931-e124d9c4deee?w=800"
+heroImage: "/pacaya-samiria/pacaya-samiria-6d5n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Exploración Pacaya Samiria de 6D / 5N"

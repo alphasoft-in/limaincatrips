@@ -2,7 +2,7 @@
 destination: "cusco"
 title: "Cusco Místico"
 subtitle: "Explora la región de Cusco"
-heroImage: "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=800"
+heroImage: "/cusco/cusco6d5n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Cusco Místico de 6D / 5N"

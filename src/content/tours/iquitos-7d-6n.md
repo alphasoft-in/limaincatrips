@@ -2,7 +2,7 @@
 destination: "iquitos"
 title: "Expedición Iquitos"
 subtitle: "Explora la región de Iquitos"
-heroImage: "https://images.unsplash.com/photo-1579503610931-e124d9c4deee?w=800"
+heroImage: "/iquitos/iquitos-7d6n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Expedición Iquitos de 7D / 6N"

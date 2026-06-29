@@ -2,7 +2,7 @@
 destination: "tarapoto"
 title: "Ruta Nororiental"
 subtitle: "Explora la región de Tarapoto"
-heroImage: "https://images.unsplash.com/photo-1518182170546-076616fd7209?w=800"
+heroImage: "/tarapoto/tarapoto-chachapoyas-6d5n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Ruta Nororiental de 6D / 5N"

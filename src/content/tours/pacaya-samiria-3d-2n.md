@@ -2,7 +2,7 @@
 destination: "pacaya-samiria"
 title: "Pacaya Samiria Express"
 subtitle: "Explora la región de Pacaya Samiria"
-heroImage: "https://images.unsplash.com/photo-1621217036239-0fc4e98f44ff?w=800"
+heroImage: "/pacaya-samiria/pacaya-samiria-3d2n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Pacaya Samiria Express de 3D / 2N"

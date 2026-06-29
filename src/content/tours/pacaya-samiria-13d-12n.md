@@ -2,7 +2,7 @@
 destination: "pacaya-samiria"
 title: "Gran Expedición Pacaya Samiria"
 subtitle: "Explora la región de Pacaya Samiria"
-heroImage: "https://images.unsplash.com/photo-1579503610931-e124d9c4deee?w=800"
+heroImage: "/pacaya-samiria/pacaya-samiria-13d12n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Gran Expedición Pacaya Samiria de 13D / 12N"

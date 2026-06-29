@@ -2,7 +2,7 @@
 destination: "tarapoto"
 title: "Gran Tour Nororiente"
 subtitle: "Explora la región de Tarapoto"
-heroImage: "https://images.unsplash.com/photo-1621217036239-0fc4e98f44ff?w=800"
+heroImage: "/tarapoto/tarapoto-chachapoyas-8d7n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Gran Tour Nororiente de 8D / 7N"

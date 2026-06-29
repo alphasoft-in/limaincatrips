@@ -2,7 +2,7 @@
 destination: "costa-norte"
 title: "Maravillas del Norte"
 subtitle: "Explora la región de Costa Norte"
-heroImage: "https://images.unsplash.com/photo-1619472391030-58fbbd34208a?w=800"
+heroImage: "/costa-norte/costa-norte11d10n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Maravillas del Norte de 11D / 10N"

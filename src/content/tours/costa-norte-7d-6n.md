@@ -2,7 +2,7 @@
 destination: "costa-norte"
 title: "Ruta Moche y Chimú"
 subtitle: "Explora la región de Costa Norte"
-heroImage: "https://images.unsplash.com/photo-1587595431973-160d0d94add1?w=800"
+heroImage: "/costa-norte/costa-norte7d6n.png"
 priceLabel: "Desde S/ 450"
 priceDescription: "Precio por persona en base a habitación doble."
 whatsappText: "Hola, quisiera información sobre el paquete Ruta Moche y Chimú de 7D / 6N"
