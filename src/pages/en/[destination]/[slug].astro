@@ -1,8 +1,8 @@
 ---
 import { getCollection, render, type CollectionEntry } from 'astro:content';
-import Layout from '../../layouts/Layout.astro';
-import Navbar from '../../components/Navbar.tsx';
-import BookingWidget from '../../components/BookingWidget.tsx';
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.tsx';
+import BookingWidget from '../../../components/BookingWidget.tsx';
 
 export async function getStaticPaths() {
   const tours = await getCollection('tours');
@@ -30,7 +30,7 @@ const whatsappLink = `https://wa.me/51936976776?text=${encodeURIComponent(data.w
 ---
 
 <Layout title={data.metaTitle || `${data.title} - Lima Inca Trips`}>
-	<Navbar client:load solid={true} currentPath={Astro.url.pathname} />
+	<Navbar client:load solid={true} currentPath={Astro.url.pathname} lang="en" />
 	
 	<main class="min-h-screen bg-brand-light">
 		{/* Hero Section */}
@@ -195,7 +195,7 @@ const whatsappLink = `https://wa.me/51936976776?text=${encodeURIComponent(data.w
               </div>
               <div class="divide-y divide-gray-100">
                 {relatedTours.map((relatedTour: CollectionEntry<'tours'>) => (
-                  <a href={`/${relatedTour.data.destination || 'tours'}/${relatedTour.id}`} class="flex gap-4 p-4 hover:bg-gray-50 transition-colors">
+                  <a href={`/en/${relatedTour.data.destination || 'tours'}/${relatedTour.id}`} class="flex gap-4 p-4 hover:bg-gray-50 transition-colors">
                     <img src={relatedTour.data.heroImage} alt={relatedTour.data.title} class="w-20 h-20 object-cover rounded-lg flex-shrink-0" />
                     <div>
                       <h4 class="font-bold text-brand-primary text-sm line-clamp-2">{relatedTour.data.title}</h4>

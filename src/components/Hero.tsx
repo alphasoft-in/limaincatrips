@@ -192,8 +192,8 @@ const Hero: React.FC<HeroProps> = ({ lang = 'es' }) => {
       
       {/* Scroll indicator */}
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-10 animate-bounce">
-        <a href="#destinations" className="text-white/70 hover:text-white transition-colors">
-          <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <a href="#destinations" className="text-white/70 hover:text-white transition-colors" aria-label="Scroll down to destinations">
+          <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
         </a>

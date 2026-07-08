@@ -10,31 +10,32 @@ badges:
   - "6D / 5N"
   - "Tour guiado"
 includes:
-  - "Traslados aeropuerto - hotel - aeropuerto"
-  - "Alojamiento en hotel seleccionado"
-  - "Desayunos diarios"
-  - "Tickets de ingreso a los atractivos"
-  - "Guía oficial de turismo"
-  - "Asistencia permanente"
+  - "Transporte y 1 noche en el hotel en Yurimaguas"
+  - "Boletos de barco Yurimaguas-Lagunas-Yurimaguas"
+  - "Entrada a la reserva y 4 noches de estadía"
+  - "Guías nativos de español y Asistencia Permanente"
+  - "Pesca deportiva y Tours nocturnos"
+  - "Kit de primeros auxilios y Equipo para el tour"
+  - "Cañas de pescar"
+  - "Desayunos, almuerzos, cenas (Opcional comida vegetariana o vegana)"
 excludes:
-  - "Pasajes aéreos o terrestres desde su ciudad de origen"
-  - "Alimentación no mencionada en el itinerario"
-  - "Gastos personales o propinas"
+  - "Propinas y Bebidas alcohólicas"
+  - "Pasajes aéreos"
+  - "Seguro de viaje"
 conditions:
-  - "Los precios están sujetos a disponibilidad y pueden cambiar sin previo aviso."
-  - "Es responsabilidad del pasajero portar sus documentos de identidad en regla."
-  - "El itinerario podría variar por condiciones climáticas o huelgas que pongan en riesgo la seguridad de los pasajeros."
+  - "Llevar botiquín personal y mochila personal."
+  - "Protector solar, ropa de clima cálido y repelente de insectos."
+  - "Se requerirá la vacuna contra la fiebre amarilla."
 pickupInfo:
-  - title: "Horarios de Recojo"
+  - title: "Lugar de Salida"
     times:
-      - time: "Llegada:"
-        description: "Coordinado según el itinerario de su vuelo/bus."
+      - time: "Punto de encuentro:"
+        description: "Yurimaguas, Perú"
 ---
 
-<div class="mb-8">
+<div class="mb-8 space-y-4">
   <p class="text-lg text-gray-700 leading-relaxed">
-    La reserva natural de los espejos de agua. Avistamiento de fauna exótica, delfines rosados y comunidades locales.
-    Prepárate para una aventura de 6D / 5N en la que nosotros nos encargaremos de todo para que tú solo te dediques a disfrutar y crear recuerdos inolvidables.
+    La Reserva Nacional Pacaya Samiria es conocida por ser una de las zonas del país de mayor belleza natural. El objetivo de este Tour a Pacaya-Samiria es que descubras la espectacular diversidad natural de flora y fauna, la magnífica vida silvestre y la historia de la región. Si busca conocer la selva de verdad, ¡este tour es para ti!
   </p>
 </div>
 
@@ -43,72 +44,68 @@ pickupInfo:
   <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
     <div class="flex items-center gap-4 mb-4">
       <div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">1</div>
-      <h3 class="text-xl font-bold text-gray-900">Día 1: Actividades programadas</h3>
+      <h3 class="text-xl font-bold text-gray-900">Día 1</h3>
     </div>
-    <p class="text-gray-600 mb-4">Recepción, instalación en el alojamiento y comienzo de nuestras excursiones por la región. Disfrutaremos de paisajes increíbles, cultura local y deliciosa gastronomía.</p>
-    <div class="bg-gray-50 rounded-lg p-4">
-      <h4 class="font-bold text-brand-primary mb-2 text-sm uppercase">Alimentación incluida:</h4>
-      <p class="text-gray-600 text-sm">Desayuno (No incluido) / Almuerzo (Turístico) / Cena (Libre)</p>
+    <div class="text-gray-600 mb-4 space-y-2">
+      <p><strong>4:00 AM</strong> Personal de nuestra agencia pasara por tu hotel para trasladarle al puerto de la ciudad de Yurimaguas. En seguida iniciamos nuestro viaje de 4 horas en transporte fluvial hasta la comunidad de Lagunas, donde nos reunimos con nuestros guías nativos. Después del desayuno iniciamos con nuestro traslado de 30 minutos en moto taxi hasta puerto Tibilo.</p>
+      <p><strong>10:00 AM</strong> Iniciamos nuestra expedición, este día usaremos embarcaciones artesanales para trasladarnos por 5 horas por el rio Tibilo hasta nuestra cabaña que está ubicada en el sector llamado Posa Gloria. Durante nuestras visitas haremos observación de aves endémicas, avistamiento de cocodrilos, pesca de pirañas entre otras actividades.</p>
     </div>
   </div>
 
   <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
     <div class="flex items-center gap-4 mb-4">
       <div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">2</div>
-      <h3 class="text-xl font-bold text-gray-900">Día 2: Actividades programadas</h3>
+      <h3 class="text-xl font-bold text-gray-900">Día 2: Posa Gloria – Panteon</h3>
     </div>
-    <p class="text-gray-600 mb-4">Recepción, instalación en el alojamiento y comienzo de nuestras excursiones por la región. Disfrutaremos de paisajes increíbles, cultura local y deliciosa gastronomía.</p>
-    <div class="bg-gray-50 rounded-lg p-4">
-      <h4 class="font-bold text-brand-primary mb-2 text-sm uppercase">Alimentación incluida:</h4>
-      <p class="text-gray-600 text-sm">Desayuno (En el hotel) / Almuerzo (Turístico) / Cena (Libre)</p>
+    <div class="text-gray-600 mb-4 space-y-2">
+      <p><strong>8:00 AM</strong> Después del desayuno, iniciamos el día en canoa para movilizarse durante la excursión, este día haremos avistamiento de cocodrilos, monos,aves exóticas de la amazonia, pesca de pirañas entre otras actividades, durante la tarde tendremos un trekking de 2 horas, donde podremos conocer plantas medicinales y arboles gigantes.</p>
+      <p><strong>7:00 PM</strong> Iniciamos nuestra visita nocturna para avistar cocodrilos, hacer pesca de Pirañas y disfrutar de leyendas de la amazonia y la paz que nos brinda la naturaleza.</p>
     </div>
+
   </div>
 
   <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
     <div class="flex items-center gap-4 mb-4">
       <div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">3</div>
-      <h3 class="text-xl font-bold text-gray-900">Día 3: Actividades programadas</h3>
+      <h3 class="text-xl font-bold text-gray-900">Día 3: Panteon – Camotal</h3>
     </div>
-    <p class="text-gray-600 mb-4">Recepción, instalación en el alojamiento y comienzo de nuestras excursiones por la región. Disfrutaremos de paisajes increíbles, cultura local y deliciosa gastronomía.</p>
-    <div class="bg-gray-50 rounded-lg p-4">
-      <h4 class="font-bold text-brand-primary mb-2 text-sm uppercase">Alimentación incluida:</h4>
-      <p class="text-gray-600 text-sm">Desayuno (En el hotel) / Almuerzo (Turístico) / Cena (Libre)</p>
+    <div class="text-gray-600 mb-4 space-y-2">
+      <p><strong>8:00 AM</strong> Iniciamos nuestro viaje 4 horas hasta el punto llamado Camotal, durante nuestro tour podremos apreciar delfines, lobos de rio, monos y aves acuáticas. Almuerzo en Camotal, por la tarde usted tendrá libre para que pueda nadar y disfrutar de la paz que nos brinda la naturaleza.</p>
     </div>
+
   </div>
 
   <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
     <div class="flex items-center gap-4 mb-4">
       <div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">4</div>
-      <h3 class="text-xl font-bold text-gray-900">Día 4: Actividades programadas</h3>
+      <h3 class="text-xl font-bold text-gray-900">Día 4: Panteon</h3>
     </div>
-    <p class="text-gray-600 mb-4">Recepción, instalación en el alojamiento y comienzo de nuestras excursiones por la región. Disfrutaremos de paisajes increíbles, cultura local y deliciosa gastronomía.</p>
-    <div class="bg-gray-50 rounded-lg p-4">
-      <h4 class="font-bold text-brand-primary mb-2 text-sm uppercase">Alimentación incluida:</h4>
-      <p class="text-gray-600 text-sm">Desayuno (En el hotel) / Almuerzo (Turístico) / Cena (Libre)</p>
+    <div class="text-gray-600 mb-4 space-y-2">
+      <p><strong>8:00 AM</strong> Iniciamos nuestra excursión con 4 horas de Trekking en la Reserva Nacional Pacaya-Samiria, donde podrás ver gran diversidad de plantas medicinales, plantas comestibles, lianas con agua bebible y haremos actividades recreativas.</p>
+      <p><strong>1:00 PM</strong> Almuerzo en Comotal,en seguida tendremos paseo en canoa,pesca deportiva, por la noche haremos fogata y nuestros guías nos contaran leyendas tradicionales de la amazonia.</p>
     </div>
+
   </div>
 
   <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
     <div class="flex items-center gap-4 mb-4">
       <div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">5</div>
-      <h3 class="text-xl font-bold text-gray-900">Día 5: Actividades programadas</h3>
+      <h3 class="text-xl font-bold text-gray-900">Día 5: Panteon – Posa Gloria</h3>
     </div>
-    <p class="text-gray-600 mb-4">Recepción, instalación en el alojamiento y comienzo de nuestras excursiones por la región. Disfrutaremos de paisajes increíbles, cultura local y deliciosa gastronomía.</p>
-    <div class="bg-gray-50 rounded-lg p-4">
-      <h4 class="font-bold text-brand-primary mb-2 text-sm uppercase">Alimentación incluida:</h4>
-      <p class="text-gray-600 text-sm">Desayuno (En el hotel) / Almuerzo (Turístico) / Cena (Libre)</p>
+    <div class="text-gray-600 mb-4 space-y-2">
+      <p><strong>8:00 AM</strong> Iniciamos nuestro viaje de retorno 7 horas hasta la cabaña de Posa Gloria, durante nuestro retorno haremos paradas para tomas fotográficas, almuerzo y otras actividades. Arribo a Posa Gloria 5 pm, cena y pernocte.</p>
     </div>
+
   </div>
 
   <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
     <div class="flex items-center gap-4 mb-4">
       <div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">6</div>
-      <h3 class="text-xl font-bold text-gray-900">Día 6: Actividades programadas</h3>
+      <h3 class="text-xl font-bold text-gray-900">Día 6: Posa Gloria – Lagunas – Yurimaguas</h3>
     </div>
-    <p class="text-gray-600 mb-4">Recepción, instalación en el alojamiento y comienzo de nuestras excursiones por la región. Disfrutaremos de paisajes increíbles, cultura local y deliciosa gastronomía.</p>
-    <div class="bg-gray-50 rounded-lg p-4">
-      <h4 class="font-bold text-brand-primary mb-2 text-sm uppercase">Alimentación incluida:</h4>
-      <p class="text-gray-600 text-sm">Desayuno (En el hotel) / Almuerzo (Turístico) / Cena (Libre)</p>
+    <div class="text-gray-600 mb-4 space-y-2">
+      <p><strong>5:00 AM</strong> Iniciamos nuestro viaje de retorno por 6 horas hasta puerto Tibilo donde nos espera nuestra movilidad para trasladarnos a la comunidad de Lagunas. Almuerzo y traslado al puerto para nuestro viaje de retorno a la ciudad de Yurimaguas.</p>
     </div>
+
   </div>
 </div>

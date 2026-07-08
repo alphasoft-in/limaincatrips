@@ -16,6 +16,8 @@ const toursCollection = defineCollection({
     includes: z.array(z.string()).default([]),
     excludes: z.array(z.string()).default([]),
     conditions: z.array(z.string()).default([]),
+    recommendations: z.array(z.string()).default([]).optional(),
+    note: z.string().optional(),
     pickupInfo: z.array(z.object({
       title: z.string(),
       times: z.array(z.object({

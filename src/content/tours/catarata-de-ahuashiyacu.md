@@ -1,20 +1,72 @@
 ---
 destination: "tours"
 title: "Catarata de Ahuashiyacu"
-subtitle: "Tours en tarapoto"
+subtitle: "Explora la región de Tarapoto"
 heroImage: "/tarapoto/catarata-ahuashiyacu.png"
 priceLabel: "Consultar precio"
-priceDescription: "Precio sujeto a confirmación."
-whatsappText: "Hola, quisiera información sobre el tour Catarata de Ahuashiyacu"
+priceDescription: "Precio por persona en base a tour grupal."
+whatsappText: "Hola, quisiera información sobre el tour Catarata de Ahuashiyacu de Half Day"
 badges:
+  - "Half Day"
   - "Tour guiado"
 includes:
-  - "Traslados"
-  - "Guía de turismo"
+  - "Recojo de su hotel dentro la ciudad."
+  - "Transporte turístico para los traslados."
+  - "Asistencia permanente."
+  - "Botiquín de primeros auxilios."
 excludes:
-  - "Alimentación no mencionada"
+  - "Recojo de hoteles o Lodge fuera de la ciudad."
+  - "Desayunos."
+  - "Bebidas."
+  - "Comidas."
+  - "Tomas fotográficas."
+  - "No incluye guía en inglés (con costo adicional)."
+conditions:
+  - "Los precios están sujetos a disponibilidad y pueden cambiar sin previo aviso."
+  - "Es responsabilidad del pasajero portar sus documentos de identidad en regla."
+  - "El itinerario podría variar por condiciones climáticas o huelgas que pongan en riesgo la seguridad de los pasajeros."
+pickupInfo:
+  - title: "Hora de Salida"
+    times:
+      - time: "Turnos:"
+        description: "Mañana o tarde."
 ---
 
-### Itinerario de viaje
+<div class="mb-8 space-y-4">
+  <p class="text-lg text-gray-700 leading-relaxed">
+    Nuestros tours diarios en Tarapoto le permitirán descubrir lo más importante de la región San Martin. También contamos con paquetes turísticos en Tarapoto que hemos diseñado para que usted disfrute de la gastronomía regional, paisajes increíbles y visite los lugares turísticos más importantes de Tarapoto.
+  </p>
+  <p class="text-lg text-gray-700 leading-relaxed">
+    A tan solo 45 minutos de la ciudad de Tarapoto se encuentra la imponente Catarata de Ahuashiyacu. 
+  </p>
+  <p class="text-lg text-gray-700 leading-relaxed">
+    Primero, haremos una parada en el Mirador Ahuashiyacu, donde podrás disfrutar de vistas panorámicas impresionantes. Después, nos adentraremos en la selva para una caminata de unos 10 minutos, que nos llevará hasta la base de la catarata.
+  </p>
+  <p class="text-lg text-gray-700 leading-relaxed">
+    Con una altura de 40 metros y 3 metros de profundidad, este lugar es perfecto para un refrescante baño en sus aguas cristalinas.
+  </p>
+  <p class="text-lg text-gray-700 leading-relaxed">
+    Relájate rodeado de la exuberante naturaleza y captura recuerdos inolvidables con tu cámara. Al finalizar, tendrás la oportunidad de explorar y adquirir artesanías locales, posteriormente traslado a Tarapoto.
+  </p>
+</div>
 
-Próximamente estaremos actualizando el itinerario detallado para este tour. Por favor contáctanos vía WhatsApp para más información.
+<div class="mt-8 bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+  <div class="flex items-center gap-3 mb-4">
+    <svg class="w-6 h-6 text-brand-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
+    <h3 class="text-xl font-bold text-gray-900">¿Qué traer? (Recomendado)</h3>
+  </div>
+  <ul class="space-y-2 text-gray-600">
+    <li class="flex items-start gap-2"><span class="text-brand-primary mt-1">•</span> Ropa adecuada para el calor.</li>
+    <li class="flex items-start gap-2"><span class="text-brand-primary mt-1">•</span> Botella de agua.</li>
+    <li class="flex items-start gap-2"><span class="text-brand-primary mt-1">•</span> Bloqueador solar.</li>
+    <li class="flex items-start gap-2"><span class="text-brand-primary mt-1">•</span> Repelente.</li>
+    <li class="flex items-start gap-2"><span class="text-brand-primary mt-1">•</span> Lentes de sol.</li>
+    <li class="flex items-start gap-2"><span class="text-brand-primary mt-1">•</span> Ropa de cambio o traje de baño.</li>
+  </ul>
+  
+  <div class="mt-6 bg-blue-50 p-4 rounded-lg border border-blue-100">
+    <p class="text-sm text-blue-800">
+      <span class="font-bold">Nota:</span> Si usted necesita de un guía turístico en ingles tiene un costo adicional. <a href="https://wa.me/51941627917" target="_blank" rel="noopener noreferrer" class="text-brand-primary font-bold hover:underline">Consúltenos aquí</a>.
+    </p>
+  </div>
+</div>

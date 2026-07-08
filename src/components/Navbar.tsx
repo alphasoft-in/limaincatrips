@@ -37,21 +37,19 @@ const Navbar: React.FC<NavbarProps> = ({ solid = false, currentPath = '/', lang 
     };
   }, [isMenuOpen]);
 
+  const matchesPath = (target: string) => {
+    if (currentPath === target || currentPath === `${target}/`) return true;
+    if (currentPath.startsWith(`${target}/`)) return true;
+    
+    const enTarget = `/en${target}`;
+    if (currentPath === enTarget || currentPath === `${enTarget}/`) return true;
+    if (currentPath.startsWith(`${enTarget}/`)) return true;
+    
+    return false;
+  };
+
   const isActive = (path: string) => {
     if (path === '/') return currentPath === '/' || currentPath === '/en/';
-    
-    // Check if the current path exactly matches the target path or its English equivalent
-    // or if the current path is a sub-page of the target (e.g. /cusco/tour-name)
-    const matchesPath = (target: string) => {
-      if (currentPath === target || currentPath === `${target}/`) return true;
-      if (currentPath.startsWith(`${target}/`)) return true;
-      
-      const enTarget = `/en${target}`;
-      if (currentPath === enTarget || currentPath === `${enTarget}/`) return true;
-      if (currentPath.startsWith(`${enTarget}/`)) return true;
-      
-      return false;
-    };
 
     if (path === '/selva') {
       return matchesPath(`/iquitos`) || 
@@ -84,14 +82,14 @@ const Navbar: React.FC<NavbarProps> = ({ solid = false, currentPath = '/', lang 
   };
 
   const getDropdownItemClasses = (path: string) => {
-    const active = currentPath.endsWith(path) || currentPath.endsWith(`${path}/`);
+    const active = matchesPath(path);
     return `block px-4 py-2 text-sm border-b border-gray-50 last:border-b-0 transition-colors ${
       active ? 'text-brand-secondary bg-brand-light font-semibold' : 'text-gray-700 hover:bg-brand-light hover:text-brand-secondary'
     }`;
   };
 
   const getMobileDropdownItemClasses = (path: string) => {
-    const active = currentPath.endsWith(path) || currentPath.endsWith(`${path}/`);
+    const active = matchesPath(path);
     return `block px-4 py-2 text-sm font-medium rounded-md transition-colors ${
       active ? 'text-brand-secondary bg-brand-light/30 font-bold' : 'text-gray-600 hover:text-brand-secondary hover:bg-gray-50'
     }`;
@@ -153,6 +151,7 @@ const Navbar: React.FC<NavbarProps> = ({ solid = false, currentPath = '/', lang 
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className={`focus:outline-none ${isScrolled ? 'text-brand-primary' : 'text-white'}`}
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 {isMenuOpen ? (
@@ -179,6 +178,7 @@ const Navbar: React.FC<NavbarProps> = ({ solid = false, currentPath = '/', lang 
           <button
             onClick={() => setIsMenuOpen(false)}
             className="p-2 -mr-2 text-gray-500 hover:text-brand-primary focus:outline-none"
+            aria-label="Close menu"
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
