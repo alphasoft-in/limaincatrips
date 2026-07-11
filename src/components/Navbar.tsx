@@ -12,6 +12,7 @@ const Navbar: React.FC<NavbarProps> = ({ solid = false, currentPath = '/', lang 
   const [isScrolled, setIsScrolled] = useState(solid);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isSelvaOpen, setIsSelvaOpen] = useState(false);
+  const [isCircuitoSurOpen, setIsCircuitoSurOpen] = useState(false);
   
   const t = useTranslations(lang);
   const translatePath = useTranslatedPath(lang);
@@ -56,6 +57,10 @@ const Navbar: React.FC<NavbarProps> = ({ solid = false, currentPath = '/', lang 
              matchesPath(`/tarapoto`) || 
              matchesPath(`/selva-central`) || 
              matchesPath(`/pacaya-samiria`);
+    }
+
+    if (path === '/circuito-sur') {
+      return matchesPath(`/cusco`) || matchesPath(`/sur-del-peru`);
     }
     
     return matchesPath(path);
@@ -133,11 +138,25 @@ const Navbar: React.FC<NavbarProps> = ({ solid = false, currentPath = '/', lang 
               </div>
             </div>
 
-            <a href={translatePath(`/cusco`)} className={getLinkClasses(`/cusco`)}>{t('nav.cusco')}</a>
+            <div className="relative group">
+              <button className={`${getLinkClasses('/circuito-sur')} flex items-center`}>
+                {t('nav.circuitosur')}
+                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
+              </button>
+              <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 transform origin-top-left -translate-y-2 group-hover:translate-y-0">
+                <div className="py-1">
+                  <a href={translatePath(`/cusco`)} className={getDropdownItemClasses(`/cusco`)}>{t('nav.cusco')}</a>
+                  <a href={translatePath(`/sur-del-peru`)} className={getDropdownItemClasses(`/sur-del-peru`)}>{t('nav.surdelperu')}</a>
+                </div>
+              </div>
+            </div>
+
             <a href={translatePath(`/cajamarca`)} className={getLinkClasses(`/cajamarca`)}>{t('nav.cajamarca')}</a>
             <a href={translatePath(`/costa-norte`)} className={getLinkClasses(`/costa-norte`)}>{t('nav.costanorte')}</a>
             <a href={translatePath(`/ica`)} className={getLinkClasses(`/ica`)}>{t('nav.ica')}</a>
+            <a href={translatePath(`/lima`)} className={getLinkClasses(`/lima`)}>{t('nav.lima')}</a>
             <a href={translatePath(`/chachapoyas`)} className={getLinkClasses(`/chachapoyas`)}>{t('nav.chachapoyas')}</a>
+            <a href={translatePath(`/trekking`)} className={getLinkClasses(`/trekking`)}>{t('nav.trekking')}</a>
             <a href={translatePath('/gallery')} className={getLinkClasses('/gallery')}>{t('nav.gallery')}</a>
 
 
@@ -208,11 +227,28 @@ const Navbar: React.FC<NavbarProps> = ({ solid = false, currentPath = '/', lang 
             </div>
           </div>
 
-          <a href={translatePath(`/cusco`)} className={getMobileLinkClasses(`/cusco`)} onClick={() => setIsMenuOpen(false)}>{t('nav.cusco')}</a>
+          <div className="my-2">
+            <button 
+              onClick={() => setIsCircuitoSurOpen(!isCircuitoSurOpen)}
+              className={`w-full text-left flex justify-between items-center px-4 py-3 rounded-lg text-base font-medium transition-colors ${isActive('/circuito-sur') ? 'text-brand-secondary bg-brand-light/50 font-bold' : 'text-gray-800 hover:text-brand-secondary hover:bg-gray-50'}`}
+            >
+              <span>{t('nav.circuitosur')}</span>
+              <svg className={`w-5 h-5 transform transition-transform duration-200 ${isCircuitoSurOpen ? 'rotate-180 text-brand-secondary' : 'text-gray-400'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg>
+            </button>
+            <div className={`overflow-hidden transition-all duration-300 ease-in-out ${isCircuitoSurOpen ? 'max-h-48 opacity-100 mt-1' : 'max-h-0 opacity-0'}`}>
+              <div className="pl-4 pr-2 py-2 space-y-1 border-l-2 border-brand-secondary/30 ml-4">
+                <a href={translatePath(`/cusco`)} className={getMobileDropdownItemClasses(`/cusco`)} onClick={() => setIsMenuOpen(false)}>{t('nav.cusco')}</a>
+                <a href={translatePath(`/sur-del-peru`)} className={getMobileDropdownItemClasses(`/sur-del-peru`)} onClick={() => setIsMenuOpen(false)}>{t('nav.surdelperu')}</a>
+              </div>
+            </div>
+          </div>
+
           <a href={translatePath(`/cajamarca`)} className={getMobileLinkClasses(`/cajamarca`)} onClick={() => setIsMenuOpen(false)}>{t('nav.cajamarca')}</a>
           <a href={translatePath(`/costa-norte`)} className={getMobileLinkClasses(`/costa-norte`)} onClick={() => setIsMenuOpen(false)}>{t('nav.costanorte')}</a>
           <a href={translatePath(`/ica`)} className={getMobileLinkClasses(`/ica`)} onClick={() => setIsMenuOpen(false)}>{t('nav.ica')}</a>
+          <a href={translatePath(`/lima`)} className={getMobileLinkClasses(`/lima`)} onClick={() => setIsMenuOpen(false)}>{t('nav.lima')}</a>
           <a href={translatePath(`/chachapoyas`)} className={getMobileLinkClasses(`/chachapoyas`)} onClick={() => setIsMenuOpen(false)}>{t('nav.chachapoyas')}</a>
+          <a href={translatePath(`/trekking`)} className={getMobileLinkClasses(`/trekking`)} onClick={() => setIsMenuOpen(false)}>{t('nav.trekking')}</a>
           <a href={translatePath('/gallery')} className={getMobileLinkClasses('/gallery')} onClick={() => setIsMenuOpen(false)}>{t('nav.gallery')}</a>
         </div>
         

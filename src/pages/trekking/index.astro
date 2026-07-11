@@ -3,37 +3,38 @@ import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.tsx';
 ---
 
-<Layout title="Tours en Lima - Lima Inca Trips">
-	<Navbar client:load solid={true} currentPath=`/lima` />
+<Layout title="Tours de Trekking - Lima Inca Trips">
+	<Navbar client:load solid={true} currentPath=`/trekking` />
 	<main class="pt-24 min-h-screen bg-gray-50">
 		<section class="py-12">
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
-				<span class="text-brand-accent font-bold tracking-wider uppercase text-sm">Destino Lima</span>
-				<h1 class="mt-2 text-4xl font-display font-bold text-brand-primary mb-6">Paquetes Turísticos en Lima y Callao</h1>
-				<p class="text-gray-600 max-w-2xl mx-auto">Conoce la Ciudad de los Reyes, su historia colonial y la belleza de la fauna marina en el Callao.</p>
+				<span class="text-brand-accent font-bold tracking-wider uppercase text-sm">Aventura y Naturaleza</span>
+				<h1 class="mt-2 text-4xl font-display font-bold text-brand-primary mb-6">Paquetes de Trekking</h1>
+				<p class="text-gray-600 max-w-2xl mx-auto">Explora las mejores rutas de senderismo, paisajes andinos y selva montañosa con nuestros tours especializados.</p>
 			</div>
 
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-					{/* Tour Card Islas Palomino */}
-					<a href="/lima/islas-palomino" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+
+					{/* Tour Card Trekking Chachapoyas 4D 3N */}
+					<a href="/trekking/trekking-chachapoyas-4d-3n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
-								src="https://images.unsplash.com/photo-1596700512604-bb703b688c22?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-								alt="Islas Palomino, Lobos Marinos" 
+								src="/trekking/teleferico.png" 
+								alt="Trekking Chachapoyas 4D 3N" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
 							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
-								Medio Día
+								4D / 3N
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
 							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-								Callao
+								Trekking Amazonas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Islas Palomino</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Naturaleza y fauna marina. Una increíble travesía en yate con la oportunidad de nadar con lobos marinos.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Ruta de los miradores 4D / 3N</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Una aventura a pie descubriendo los tesoros ocultos de Chachapoyas, paisajes increíbles y cataratas majestuosas.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -44,25 +45,25 @@ import Navbar from '../../components/Navbar.tsx';
 						</div>
 					</a>
 
-					{/* Tour Card Lima y Miraflores City Tour */}
-					<a href="/lima/lima-miraflores-city-tour" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card Trekking Museo de Momias 4D 3N */}
+					<a href="/trekking/trekking-museo-momias-4d-3n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
-								src="https://images.unsplash.com/photo-1577587230708-187fdbef4d91?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-								alt="Centro Histórico de Lima" 
+								src="/trekking/museo_de_las_momias.png" 
+								alt="Museo de Momias 4D 3N" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
 							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
-								Medio Día
+								4D / 3N
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
 							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-								Lima - Miraflores
+								Trekking Amazonas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">City Tour Lima y Miraflores</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Descubre la Ciudad de los Reyes. Visita el centro histórico, las Catacumbas y degusta nuestro Pisco Sour.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Museo de Momias 4D / 3N</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Explora el fascinante Museo de las Momias de Leymebamba y embárcate en un trekking único.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -73,25 +74,25 @@ import Navbar from '../../components/Navbar.tsx';
 						</div>
 					</a>
 
-					{/* Tour Card Cooking Class */}
-					<a href="/lima/cooking-class-city-tour-lima" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card Trekking Laguna de los Condores */}
+					<a href="/trekking/trekking-laguna-de-los-condores" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
-								src="/lima/cooking-class.jpg" 
-								alt="Cooking Class en Lima" 
+								src="/trekking/laguna_de_los_condores.png" 
+								alt="Laguna de los Cóndores" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
 							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
-								7 Hrs. 30 Min.
+								3D / 2N
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
 							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-								Lima - Miraflores
+								Trekking Amazonas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Cooking Class + City Tour</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Experiencia gastronómica interactiva y recorrido histórico y cultural en la Ciudad de los Reyes.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Laguna de los Cóndores 3D / 2N</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Una expedición extrema hacia la enigmática Laguna de las Momias, en lo más profundo de la selva nubosa.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -102,25 +103,25 @@ import Navbar from '../../components/Navbar.tsx';
 						</div>
 					</a>
 
-					{/* Tour Card Cooking Class Chorrillos */}
-					<a href="/lima/cooking-class-city-tour-chorrillos" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card Trekking Gran Vilaya */}
+					<a href="/trekking/trekking-gran-vilaya-4d-3n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
-								src="/lima/cooking-class.jpg" 
-								alt="Cooking Class en Chorrillos" 
+								src="/trekking/gran_vilaya.png" 
+								alt="Gran Vilaya 4D / 3N" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
 							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
-								7 Hrs. 30 Min.
+								4D / 3N
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
 							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-								Lima - Chorrillos
+								Trekking Amazonas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Cooking Class Chorrillos + City Tour</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Experiencia gastronómica (Causa, Ceviche y Pisco) en Riviera Chorrillos y City Tour privado.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Gran Vilaya 4D / 3N</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Una espectacular ruta que combina sitios arqueológicos como Pueblo de los Muertos, Karajía, Gran Vilaya y Kuélap.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -131,25 +132,25 @@ import Navbar from '../../components/Navbar.tsx';
 						</div>
 					</a>
 
-					{/* Tour Card Cooking Class La Gran Patrona */}
-					<a href="/lima/cooking-class-city-tour-la-gran-patrona" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card Trekking Gran Vilaya 3D 2N */}
+					<a href="/trekking/trekking-gran-vilaya-3d-2n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
-								src="/lima/cooking-class.jpg" 
-								alt="Cooking Class en La Gran Patrona" 
+								src="/trekking/gran_vilaya3d.png" 
+								alt="Gran Vilaya 3D / 2N" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
 							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
-								7 Hrs. 30 Min.
+								3D / 2N
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
 							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-								Lima - La Gran Patrona
+								Trekking Amazonas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Cooking Class La Gran Patrona + City Tour</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Experiencia gastronómica interactiva en La Gran Patrona (Opciones de 1 o 2 platos) y City Tour privado.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Gran Vilaya 3D / 2N</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Una aventura express de senderismo por la Amazonía Andina recorriendo el Valle de Belén y la fortaleza de Kuélap.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
