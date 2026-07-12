@@ -2,7 +2,7 @@
 destination: "sur-del-peru"
 title: "Andes Peruanos 11D / 10N"
 subtitle: "Lima, Arequipa, Colca, Puno, Titicaca, Valle Sagrado y Machu Picchu"
-heroImage: "/cusco/cusco5d4n.png"
+heroImage: "/sur/lago_titicaca.png"
 priceLabel: "Consultar precio"
 priceDescription: "Precio sujeto a confirmación."
 whatsappText: "Hola, quisiera información sobre el paquete de Andes Peruanos 11D / 10N"

@@ -2,7 +2,7 @@
 destination: "tarapoto"
 title: "Tarapoto y Chachapoyas 7D / 6N"
 subtitle: "Descubre Ambos Mundos en 7 Días"
-heroImage: "/tarapoto/tarapoto-chachapoyas-7d6n.png"
+heroImage: "/chachapoyas/chachapoyas7d.png"
 priceLabel: "Consultar precio"
 priceDescription: "Precio sujeto a confirmación."
 whatsappText: "Hola, quisiera información sobre el paquete Tarapoto y Chachapoyas de 7D / 6N"

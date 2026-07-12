@@ -2,7 +2,7 @@
 destination: "chachapoyas"
 title: "Chachapoyas 7D / 6N"
 subtitle: "Expedición Máxima a Amazonas"
-heroImage: "/chachapoyas/gocta.png"
+heroImage: "/chachapoyas/chullpas.png"
 priceLabel: "Consultar precio"
 priceDescription: "Precio sujeto a confirmación."
 whatsappText: "Hola, quisiera información sobre el paquete Chachapoyas de 7D / 6N"

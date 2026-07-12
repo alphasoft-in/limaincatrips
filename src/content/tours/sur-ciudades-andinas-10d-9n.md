@@ -2,7 +2,7 @@
 destination: "sur-del-peru"
 title: "Ciudades Andinas 10D / 9N"
 subtitle: "Descubre Lima, el Cañón del Colca y la magia de Machu Picchu"
-heroImage: "/cusco/cusco6d5n.png"
+heroImage: "/sur/cañon_del_Colca10d.png"
 priceLabel: "Consultar precio"
 priceDescription: "Precio sujeto a confirmación."
 whatsappText: "Hola, quisiera información sobre el paquete de Ciudades Andinas 10D / 9N"

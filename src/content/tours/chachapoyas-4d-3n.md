@@ -2,7 +2,7 @@
 destination: "chachapoyas"
 title: "Chachapoyas 4D / 3N"
 subtitle: "Aventura e Historia en Amazonas"
-heroImage: "/chachapoyas/gocta.png"
+heroImage: "/chachapoyas/huancas.png"
 priceLabel: "Consultar precio"
 priceDescription: "Precio sujeto a confirmación."
 whatsappText: "Hola, quisiera información sobre el paquete Chachapoyas de 4D / 3N"

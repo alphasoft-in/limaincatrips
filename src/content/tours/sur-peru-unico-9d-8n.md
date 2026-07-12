@@ -2,7 +2,7 @@
 destination: "sur-del-peru"
 title: "Perú Único 9D / 8N"
 subtitle: "Visita el Perú como nadie más: Exclusividad, gastronomía y alta gama."
-heroImage: "/cusco/cusco6d5n.png"
+heroImage: "/sur/peru_unico9d.png"
 priceLabel: "Consultar precio"
 priceDescription: "Precio sujeto a confirmación."
 whatsappText: "Hola, quisiera información sobre el paquete de Perú Único 9D / 8N (Exclusividad y Lujo)"

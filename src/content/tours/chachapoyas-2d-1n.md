@@ -2,7 +2,7 @@
 destination: "chachapoyas"
 title: "Chachapoyas 2D / 1N"
 subtitle: "Escapada Rápida a Amazonas"
-heroImage: "/chachapoyas/kuelap.png"
+heroImage: "/chachapoyas/cocachimba.png"
 priceLabel: "Consultar precio"
 priceDescription: "Precio sujeto a confirmación."
 whatsappText: "Hola, quisiera información sobre el paquete Chachapoyas de 2D / 1N"

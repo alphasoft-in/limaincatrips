@@ -144,7 +144,7 @@ const whatsappLink = `https://wa.me/51936976776?text=${encodeURIComponent(data.w
             </div>
           )}
 
-          {data.conditions && data.conditions.length > 0 && (
+          {data.destination !== 'cusco' && data.conditions && data.conditions.length > 0 && (
             <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden mt-8">
               <div class="bg-brand-secondary p-6">
                 <h3 class="text-xl font-display font-bold text-white flex items-center gap-2">

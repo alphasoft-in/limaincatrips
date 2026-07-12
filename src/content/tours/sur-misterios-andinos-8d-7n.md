@@ -2,7 +2,7 @@
 destination: "sur-del-peru"
 title: "Misterios Andinos 8D / 7N"
 subtitle: "Naturaleza y cultura en un fascinante recorrido por el Perú"
-heroImage: "/cusco/cusco4d3n.png"
+heroImage: "/sur/templo_del_sol.png"
 priceLabel: "Consultar precio"
 priceDescription: "Precio sujeto a confirmación."
 whatsappText: "Hola, quisiera información sobre el paquete de Misterios Andinos 8D / 7N"

@@ -3,7 +3,7 @@ destination: "lima"
 title: "Islas Palomino"
 metaTitle: "Islas Palomino - Lima Inca Trips"
 subtitle: "Naturaleza y Fauna Marina"
-heroImage: "/lima/islas-palomino.png"
+heroImage: "/lima/isla_palomino.png"
 badges:
   - "Medio Día"
   - "Naturaleza"

@@ -2,7 +2,7 @@
 destination: "chachapoyas"
 title: "Chachapoyas 5D / 4N"
 subtitle: "Lo Mejor de Amazonas"
-heroImage: "/chachapoyas/gocta.png"
+heroImage: "/chachapoyas/revash.png"
 priceLabel: "Consultar precio"
 priceDescription: "Precio sujeto a confirmación."
 whatsappText: "Hola, quisiera información sobre el paquete Chachapoyas de 5D / 4N"

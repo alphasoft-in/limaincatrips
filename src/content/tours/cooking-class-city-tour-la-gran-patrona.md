@@ -2,7 +2,7 @@
 destination: "lima"
 title: "Cooking Class + Mercado Local + City Tour"
 subtitle: "Experiencia Gastronómica en La Gran Patrona y City Tour Privado"
-heroImage: "/lima/cooking-class.jpg"
+heroImage: "/lima/la_gran_patrona.png"
 priceLabel: "Consultar precio"
 priceDescription: "Precio varía según opción elegida y cantidad de pasajeros."
 whatsappText: "Hola, quisiera información sobre el Cooking Class La Gran Patrona + City Tour Lima"

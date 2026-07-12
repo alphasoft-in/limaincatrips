@@ -2,7 +2,7 @@
 destination: "lima"
 title: "Cooking Class + Mercado Local + City Tour"
 subtitle: "Experiencia Gastronómica en Riviera Chorrillos y City Tour Privado"
-heroImage: "/lima/cooking-class.jpg"
+heroImage: "/lima/chorrillos.png"
 priceLabel: "Consultar precio"
 priceDescription: "Precio varía según cantidad de pasajeros."
 whatsappText: "Hola, quisiera información sobre el Cooking Class Chorrillos + City Tour Lima"

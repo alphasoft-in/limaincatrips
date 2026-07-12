@@ -2,7 +2,7 @@
 destination: "chachapoyas"
 title: "Chachapoyas 6D / 5N"
 subtitle: "Exploración total de Amazonas"
-heroImage: "/chachapoyas/gocta.png"
+heroImage: "/chachapoyas/leymebamba6d.png"
 priceLabel: "Consultar precio"
 priceDescription: "Precio sujeto a confirmación."
 whatsappText: "Hola, quisiera información sobre el paquete Chachapoyas de 6D / 5N"
