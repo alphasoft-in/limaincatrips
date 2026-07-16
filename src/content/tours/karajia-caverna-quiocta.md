@@ -1,5 +1,5 @@
 ---
-destination: "tours"
+destination: "chachapoyas"
 title: "Tour a Karajía & Caverna Quiocta"
 subtitle: "Aventura e Historia de los Chachapoyas"
 heroImage: "/chachapoyas/karajia.png"
@@ -42,7 +42,7 @@ note: "La caverna de Quiocta no es apta para personas con problemas en lugares c
 
 <div class="mb-8">
 <h2 class="text-2xl font-bold text-gray-900 mb-4">Karajía, Luya, Amazonas, Perú</h2>
-<p class="text-lg text-gray-700 leading-relaxed mb-4">
+<p class="text-lg text-gray-700 leading-relaxed">
 Esta es una excursión de un día en Chachapoyas. Es una emocionante combinación de aventura e historia: visitaremos las cavernas Quiocta. Aquí usted tendrá la oportunidad de observar interesantes formaciones rocosas, estalactitas, estalagmitas y entierros Chachapoyas. También conoceremos los purunmachus de Karajía. Estas estructuras funerarias se consideran únicas en el mundo por su estilo de construcción, contenido y ubicación.
 </p>
 </div>
@@ -60,7 +60,7 @@ Esta es una excursión de un día en Chachapoyas. Es una emocionante combinació
 <span class="flex items-center gap-1"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"></path></svg> Retorno: 6:30 PM aprox.</span>
 </div>
 
-<div class="text-gray-600 space-y-3">
+<div class="text-gray-600 space-y-2">
 <p>Nuestra excursión comienza a las <strong>8:00 AM</strong>; salimos de la ciudad de Chachapoyas con rumbo a la provincia de Luya. Descendemos hacia el valle del Utcubamba, lugar emblemático de esta civilización precolombina, y a nuestro arribo a Lamud organizamos el almuerzo.</p>
 <p>En seguida, continuamos nuestro viaje por 30 minutos hasta las cavernas de Quiocta (2700 metros sobre el nivel del mar). Caminaremos 5 minutos hasta la entrada de la caverna y exploraremos sus 550 metros de profundidad, donde podremos apreciar fascinantes formaciones rocosas.</p>
 <p>Al terminar el recorrido en la caverna, volvemos a Lámud para el almuerzo. Después continuaremos nuestro viaje hacia el pueblo de Cruz Pata y comenzaremos la caminata de 2 km hacia los sarcófagos de Karajía (hay servicio de caballos y arrieros opcional).</p>

@@ -1,5 +1,5 @@
 ---
-destination: "tours"
+destination: "chachapoyas"
 title: "Tour Diario a Kuélap"
 subtitle: "Fortaleza pre-Inca de los Chachapoyas"
 heroImage: "/chachapoyas/kuelap.png"
@@ -57,7 +57,7 @@ note: "Si usted necesita de un guía turístico en inglés tiene un costo adicio
 <span class="flex items-center gap-1"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"></path></svg> Retorno: 5:00 PM aprox.</span>
 </div>
 
-<div class="text-gray-600 space-y-3">
+<div class="text-gray-600 space-y-2">
 <p>A las <strong>9:00 AM</strong> iniciamos nuestro Tour a Kuélap, con un viaje de 1 hora a lo largo del Valle del Río Uctubamba hasta el Centro Poblado del Nuevo Tingo.</p>
 <p>Allí se encuentra la estación de las telecabinas; en seguida abordamos un bus por 7 minutos hasta el andén de embarque y disfrutaremos un viaje impresionante de 20 minutos en el primer Sistema de Telecabinas del Perú hasta el andén de llegada o parador turístico en el Pueblo La Malca.</p>
 <p>En seguida, iniciamos una caminata de 25 minutos hasta la majestuosa Ciudadela de Kuélap.</p>

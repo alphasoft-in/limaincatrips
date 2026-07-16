@@ -1,5 +1,5 @@
 ---
-destination: "tours"
+destination: "chachapoyas"
 title: "Tour a la Catarata Gocta"
 subtitle: "Una de las caídas de agua más altas del mundo"
 heroImage: "/chachapoyas/gocta.png"
@@ -40,7 +40,7 @@ note: "Si usted necesita de un guía turístico en inglés tiene un costo adicio
 
 <div class="mb-8">
 <h2 class="text-2xl font-bold text-gray-900 mb-4">Catarata Gocta, Amazonas, Perú</h2>
-<p class="text-lg text-gray-700 leading-relaxed mb-4">
+<p class="text-lg text-gray-700 leading-relaxed">
 Únase a nosotros en un emocionante viaje de un día a una de las caídas de agua más altas del mundo con 771 metros, la Catarata Gocta. Consta de dos saltos, la primera caída de 231 metros corresponde al ingreso por el pueblo San Pablo de Valera y la caída de 540 metros corresponde al pueblo de Cocachimba. Es una catarata que vierte sobre los Andes Amazónicos. Ha sido recientemente descubierta y ha ganado fama mundial por su belleza paisajística.
 </p>
 <p class="text-lg text-gray-700 leading-relaxed">
@@ -61,7 +61,7 @@ El sendero que conduce al Tour a Catarata Gocta está rodeado de un extenso bosq
 <span class="flex items-center gap-1"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"></path></svg> Retorno: 5:00 PM aprox.</span>
 </div>
 
-<div class="text-gray-600 space-y-3">
+<div class="text-gray-600 space-y-2">
 <p>Nuestra excursión a Gocta inicia a las <strong>9:00 AM</strong> desde Chachapoyas con dirección a la comunidad de Cocachimba. Al llegar al pueblo visitaremos a la Asociación comunal de turismo para registrar la visita y recibir orientación previa a la caminata, también haremos la reserva de los almuerzos.</p>
 <p>La caminata dura cinco horas entre ida y vuelta (hay opción de alquilar caballos para alternar el trayecto). Esta excursión le permitirá apreciar bosque primario, orquídeas, plantas medicinales, árboles maderables, aves como el Trogón Enmascarado, el endémico Pájaro Carpintero Jaspeado, el Ave Nacional Gallito de las Rocas, y también pueden avistarse animales como el Mono Choro de Cola Amarilla entre otros.</p>
 <p>También podremos ver la vida cotidiana de la comunidad, como sus trapiches para procesar la caña de azúcar, y se podrán apreciar restos arqueológicos de los Chachapoyas y evidencias de formaciones geológicas de hace millones de años.</p>

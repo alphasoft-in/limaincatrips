@@ -31,4 +31,8 @@ const toursCollection = defineCollection({
 
 export const collections = {
   'tours': toursCollection,
+  'tours-en': defineCollection({
+    loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/tours-en" }),
+    schema: toursCollection.schema
+  })
 };

@@ -1,0 +1,127 @@
+---
+
+destination: "tarapoto"
+title: "Tarapoto and Chachapoyas 7D / 6N"
+subtitle: "Discover Both Worlds in 7 Days"
+heroImage: "/chachapoyas/chachapoyas7d.png"
+priceLabel: "Check price"
+priceDescription: "Price subject to confirmation."
+whatsappText: "Hi, I would like information about the Tarapoto and Chachapoyas 7D / 6N package"
+badges:
+  - "7D / 6N"
+  - "Both Worlds"
+  - "Guided Tour"
+includes:
+  - "Transfer from the airport to the hotel and vice versa."
+  - "Transfers Tarapoto-Chachapoyas and vice versa."
+  - "6 breakfasts."
+  - "1 lunch at QASIKAY SELVA LODGE (Blue Lagoon)."
+  - "2 nights of accommodation en Tarapoto."
+  - "3 nights of accommodation en Chachapoyas."
+  - "3 lunches in Chachapoyas."
+  - "6 tours."
+  - "Horseback riding (Blue Lagoon)."
+  - "Entrance tickets."
+excludes:
+  - "Meals not specified in the program."
+  - "Alcoholic and non-alcoholic beverages."
+  - "Travel insurance."
+  - "Extreme sports (Jet Ski, Canopy, Kayak, Banana Boat etc.) in the Blue Lagoon tour."
+  - "Photo modules."
+  - "Extreme sports."
+recommendations:
+  - "Warm clothing for the night and light clothing for the day"
+  - "Comfortable walking shoes"
+  - "Sunscreen and insect repellent"
+  - "Camera or cell phone with extra battery"
+  - "Cash (soles) for extra expenses"
+
+---
+<div class="mb-8">
+<h2 class="text-2xl font-bold text-gray-900 mb-4">Discover Both Worlds in 7 Days</h2>
+<p class="text-lg text-gray-700 leading-relaxed mb-4">
+The ultimate experience fusing the vibrant jungle of Tarapoto and the archaeological and natural treasures of Chachapoyas. An unforgettable 7-day trip.
+</p>
+</div>
+<div class="space-y-6">
+<div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">1</div>
+<h3 class="text-xl font-bold text-gray-900">Day 1: City Tour Lamas Castle</h3>
+</div>
+<div class="text-gray-600 mb-4 space-y-3">
+<p>Lamas is located 30 minutes from Tarapoto, it is known for its immense cultural value and its three natural floors.</p>
+<p><strong>03:30 p.m.</strong> Pick up begins to visit the city of Lamas.</p>
+<ul class="list-disc pl-5 space-y-1">
+<li>Visit to the Lamas Plaza de Armas.</li>
+<li>We will visit the Lamas Castle, the historical and ethnological museum of the Chancas.</li>
+<li>Visit to the native neighborhood.</li>
+</ul>
+</div>
+</div>
+<div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">2</div>
+<h3 class="text-xl font-bold text-gray-900">Day 2: Full Day Blue Lagoon</h3>
+</div>
+<div class="text-gray-600 mb-4 space-y-3">
+<p><strong>08:30 a.m. Departure to Blue Lagoon:</strong> We crossed the Huallaga River on a raft, passing by the Punta Gallinazo viewpoint to appreciate the landscape and take photos (the photo booths have an extra cost). We continue the journey until we reach the town of El Sauce.</p>
+<p>Lunch a la carte at Rústica or Qasikay Selva Lodge restaurant.</p>
+<p><strong>11:30 a.m.</strong> Boat ride through the lagoon with stops at important places. Free time to rest, bathe in the lagoon and organize yourself to do some extra recreational sports (extreme activities are not included).</p>
+<p><strong>04:00 p.m.</strong> Return to the Hotel.</p>
+</div>
+</div>
+<div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">3</div>
+<h3 class="text-xl font-bold text-gray-900">Day 3: Transfer to Chachapoyas</h3>
+</div>
+<div class="text-gray-600 mb-4 space-y-3">
+<p><strong>10:00 a.m.</strong> Departure to the city of Chachapoyas (Selva Tourism Transport Company). During the journey, you will be able to enjoy impressive natural landscapes that will accompany your trip.</p>
+<p>Once in Chachapoyas, you will be transferred directly to your hotel for a well-deserved rest.</p>
+<p><strong>06:00 p.m.</strong> Approximate arrival.</p>
+</div>
+</div>
+<div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">4</div>
+<h3 class="text-xl font-bold text-gray-900">Day 4: Kuelap and Cable Car</h3>
+</div>
+<div class="text-gray-600 mb-4 space-y-3">
+<p><strong>09:45 a.m.</strong> Take the cable car in El Tingo and be amazed by the spectacular landscapes. Visit the mysterious archaeological complex of Kuelap, the imposing fortress of the Chachapoyas culture, and immerse yourself in its fascinating history.</p>
+<p>At <strong>05:30 p.m.</strong>, return to the city with unforgettable memories of a day full of adventures.</p>
+</div>
+</div>
+<div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">5</div>
+<h3 class="text-xl font-bold text-gray-900">Day 5: Full Day Gocta Waterfall</h3>
+</div>
+<div class="text-gray-600 mb-4 space-y-3">
+<p>Departure towards the town of Cocachimba, where there will be a short stop to order lunches and buy tickets.</p>
+<p>From there you will begin a walk of approximately 2 hours (or you can also rent a horse) to reach the second fall of the immense Gocta Waterfall, where the guide will tell you some legends and stories. Sufficient time will be given for taking photographs.</p>
+<p>After the visit, you will enjoy a delicious lunch and then we will return to the city of Chachapoyas.</p>
+</div>
+</div>
+<div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">6</div>
+<h3 class="text-xl font-bold text-gray-900">Day 6: Full Day Karajía Sarcophagi and Return to Tarapoto</h3>
+</div>
+<div class="text-gray-600 mb-4 space-y-3">
+<p>Departure towards the Lámud district, where there will be a stop to order lunches. Then we will go to the viewpoint of the Utcubamba canyon, we will return to Lámud and we will have a delicious lunch.</p>
+<p>In the afternoon you will visit the mysterious Karajía Sarcophagi (a unique funerary pattern in the world anchored on top of cliffs).</p>
+<p>At the end of the afternoon, return to the city of Chachapoyas and board for Tarapoto.</p>
+</div>
+</div>
+<div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">7</div>
+<h3 class="text-xl font-bold text-gray-900">Day 7: Ahuashiyacu Falls (Tarapoto)</h3>
+</div>
+<div class="text-gray-600 mb-4 space-y-3">
+<p><strong>10:00 a.m.</strong> Departure to the famous Ahuashiyacu Falls. Before arriving we pass by a beautiful viewpoint, and upon arrival we can enjoy the charm of the jungle, take spectacular photos and immerse ourselves in these charming and fresh waters.</p>
+<p>Finally, transfer to the airport according to your flight schedule and end of our services.</p>
+</div>
+</div>
+</div>

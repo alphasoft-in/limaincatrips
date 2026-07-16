@@ -1,5 +1,5 @@
 ---
-destination: "tours"
+destination: "chachapoyas"
 title: "Tour a Revash & Leymebamba"
 subtitle: "Mausoleos y Momias de los Chachapoyas"
 heroImage: "/chachapoyas/leymebamba.png"
@@ -40,7 +40,7 @@ note: "Si usted necesita de un guía turístico en inglés tiene un costo adicio
 
 <div class="mb-8">
 <h2 class="text-2xl font-bold text-gray-900 mb-4">Revash, Luya, Amazonas, Perú</h2>
-<p class="text-lg text-gray-700 leading-relaxed mb-4">
+<p class="text-lg text-gray-700 leading-relaxed">
 Un viaje para interesados en conocer tumbas únicas de la Cultura Pre-Inca de los Chachapoyas. El viaje comienza desde la Ciudad de Chachapoyas hasta los Mausoleos que están situados a unos 60 km al sur de la ciudad. Los Mausoleos de Revash son un conjunto de edificaciones funerarias que albergaron varias momias a la vez y que se asemejan a pequeñas casas, formando un pueblo en miniatura enclavado en los farallones de piedra caliza de la zona. Este tipo de sepulcro es extraordinario y único; ofrece una visión distinta de las ceremonias y creencias de esta Cultura pre-inca.
 </p>
 <p class="text-lg text-gray-700 leading-relaxed">
@@ -61,7 +61,7 @@ Además de los mausoleos de Revash, podrás apreciar el Museo de Leymebamba, que
 <span class="flex items-center gap-1"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"></path></svg> Retorno: 6:30 PM aprox.</span>
 </div>
 
-<div class="text-gray-600 space-y-3">
+<div class="text-gray-600 space-y-2">
 <p>Partiremos desde Chachapoyas a las <strong>8:00 AM</strong>. El viaje es de aproximadamente 2 horas en vehículo hasta llegar al pueblo de San Bartolo, desde donde empezaremos una caminata de aproximadamente media hora hasta los Mausoleos de Revash. Al llegar a las tumbas, nuestro guía nos explicará detalladamente la información referida al lugar.</p>
 <p>Concluida la visita a los Mausoleos, volvemos al vehículo y continuamos nuestro viaje hacia Leymebamba, donde almorzaremos. Una vez que hayamos disfrutado el almuerzo, nos trasladamos hacia el <strong>Museo Centro Mallqui</strong>, donde permaneceremos el tiempo necesario para apreciar restos de materiales prehispánicos como cerámicas, textiles, quipus, momias y aprender más sobre la cultura Chachapoyas.</p>
 <p>Al finalizar nuestra visita en el Museo Leymebamba, iniciamos nuestro viaje de retorno a la ciudad de Chachapoyas, llegando a las <strong>6:30 PM</strong> aproximadamente.</p>

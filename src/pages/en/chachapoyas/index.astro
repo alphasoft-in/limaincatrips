@@ -3,14 +3,14 @@ import Layout from '../../../layouts/Layout.astro';
 import Navbar from '../../../components/Navbar.tsx';
 ---
 
-<Layout title="Tours in Chachapoyas - Lima Inca Trips">
-	<Navbar client:load solid={true} currentPath=`/en/chachapoyas` lang="en" />
+<Layout title="Tours in Chachapoyas - Lima Inca Trips" lang="en">
+	<Navbar client:load solid={true} currentPath="/en/chachapoyas" lang="en" />
 	<main class="pt-24 min-h-screen bg-gray-50">
 		<section class="py-12">
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
 				<span class="text-brand-accent font-bold tracking-wider uppercase text-sm">Northeast Destination</span>
 				<h1 class="mt-2 text-4xl font-display font-bold text-brand-primary mb-6">Tour Packages in Chachapoyas</h1>
-				<p class="text-gray-600 max-w-2xl mx-auto">Explore the mountain jungle, ancient fortresses like Kuelap, impressive waterfalls, and enigmatic sarcophagi.</p>
+				<p class="text-gray-600 max-w-2xl mx-auto">Explore the cloud forest, ancient fortresses like Kuelap, impressive waterfalls, and enigmatic sarcophagi.</p>
 			</div>
 
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -33,7 +33,7 @@ import Navbar from '../../../components/Navbar.tsx';
 								Chachapoyas
 							</div>
 							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">City Tour Chachapoyas</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Recorre las calles coloniales de la ciudad, visita sus museos y descubre el encanto histórico de la capital de Amazonas.</p>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Walk through the colonial streets of the city, visit its museums, and discover the historical charm of the capital of Amazonas.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -44,16 +44,16 @@ import Navbar from '../../../components/Navbar.tsx';
 						</div>
 					</a>
 
-					{/* Tour Card Catarata Yumbilla */}
-					<a href="/en/tours/catarata-yumbilla" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card Yumbilla Waterfall */}
+					<a href="/en/chachapoyas/catarata-yumbilla" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
 								src="/chachapoyas/yumbilla.png" 
-								alt="Catarata Yumbilla" 
+								alt="Yumbilla Waterfall" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
 							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
-								Full Day
+								Daily Tour
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
@@ -61,8 +61,8 @@ import Navbar from '../../../components/Navbar.tsx';
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
 								Amazonas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Catarata Yumbilla</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Aventúrate a conocer una de las cataratas más altas del mundo en medio del bosque de neblina. Trekking y maravillas naturales.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Yumbilla Waterfall</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Venture to know one of the highest waterfalls in the world in the middle of the cloud forest. Trekking and natural wonders.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -73,16 +73,16 @@ import Navbar from '../../../components/Navbar.tsx';
 						</div>
 					</a>
 
-					{/* Tour Card Kuélap */}
-					<a href="/en/tours/kuelap" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card Kuelap */}
+					<a href="/en/chachapoyas/kuelap" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
 								src="/chachapoyas/kuelap.png" 
-								alt="Fortaleza de Kuélap" 
+								alt="Fortaleza de Kuelap" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
 							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
-								Full Day
+								Daily Tour
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
@@ -90,8 +90,8 @@ import Navbar from '../../../components/Navbar.tsx';
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
 								Amazonas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Kuélap</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Visita la majestuosa fortaleza de los Chachapoyas en las alturas de los Andes y maravíllate con su arquitectura milenaria.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Kuelap</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Visit the majestic fortress of the Chachapoyas in the heights of the Andes and marvel at its ancient architecture.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -102,8 +102,8 @@ import Navbar from '../../../components/Navbar.tsx';
 						</div>
 					</a>
 
-					{/* Tour Card Huaylla Belén & Karajía */}
-					<a href="/en/tours/huaylla-belen-karajia" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card Huaylla Belen & Karajia */}
+					<a href="/en/chachapoyas/huaylla-belen-karajia" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
 								src="/chachapoyas/huaylla-belen.png" 
@@ -111,7 +111,7 @@ import Navbar from '../../../components/Navbar.tsx';
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
 							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
-								Full Day
+								Daily Tour
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
@@ -119,8 +119,8 @@ import Navbar from '../../../components/Navbar.tsx';
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
 								Amazonas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Huaylla Belén & Karajía</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Descubre los enigmáticos sarcófagos de Karajía incrustados en la roca y pasea por el hermoso valle de Huaylla Belén.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Huaylla Belen & Karajia</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Discover the enigmatic Karajia sarcophagi embedded in the rock and stroll through the beautiful Huaylla Belen valley.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -132,7 +132,7 @@ import Navbar from '../../../components/Navbar.tsx';
 					</a>
 
 					{/* Tour Card Revash & Leymebamba */}
-					<a href="/en/tours/revash-leymebamba" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					<a href="/en/chachapoyas/revash-leymebamba" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
 								src="/chachapoyas/leymebamba.png" 
@@ -140,7 +140,7 @@ import Navbar from '../../../components/Navbar.tsx';
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
 							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
-								Full Day
+								Daily Tour
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
@@ -149,7 +149,7 @@ import Navbar from '../../../components/Navbar.tsx';
 								Amazonas
 							</div>
 							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Revash & Leymebamba</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Explora los coloridos mausoleos de Revash esculpidos en acantilados y maravíllate con las momias del museo de Leymebamba.</p>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Explore the colorful Revash mausoleums carved into cliffs and marvel at the mummies of the Leymebamba museum.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -160,8 +160,8 @@ import Navbar from '../../../components/Navbar.tsx';
 						</div>
 					</a>
 
-					{/* Tour Card Karajía & Caverna Quiocta */}
-					<a href="/en/tours/karajia-caverna-quiocta" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card Karajia & Quiocta Cavern */}
+					<a href="/en/chachapoyas/karajia-caverna-quiocta" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
 								src="/chachapoyas/karajia.png" 
@@ -169,7 +169,7 @@ import Navbar from '../../../components/Navbar.tsx';
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
 							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
-								Full Day
+								Daily Tour
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
@@ -177,8 +177,8 @@ import Navbar from '../../../components/Navbar.tsx';
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
 								Amazonas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Karajía & Caverna Quiocta</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Conoce el arte funerario de los sarcófagos de Karajía y luego adéntrate en las estalactitas milenarias de la caverna Quiocta.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Karajia & Quiocta Cavern</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Get to know the funerary art of the Karajia sarcophagi and then delve into the ancient stalactites of the Quiocta cavern.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -189,16 +189,16 @@ import Navbar from '../../../components/Navbar.tsx';
 						</div>
 					</a>
 
-					{/* Tour Card Catarata Gocta */}
-					<a href="/en/tours/catarata-gocta" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card Gocta Waterfall */}
+					<a href="/en/chachapoyas/catarata-gocta" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
 								src="/chachapoyas/gocta.png" 
-								alt="Catarata Gocta" 
+								alt="Gocta Waterfall" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
 							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
-								Full Day
+								Daily Tour
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
@@ -206,8 +206,8 @@ import Navbar from '../../../components/Navbar.tsx';
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
 								Amazonas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Catarata Gocta</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Una impresionante caminata hasta la base de una de las cataratas más imponentes y altas del planeta.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Gocta Waterfall</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">An impressive hike to the base of one of the most imposing and highest waterfalls on the planet.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -219,16 +219,24 @@ import Navbar from '../../../components/Navbar.tsx';
 					</a>
 
 
-					{/* Tour Card City Tour Chachapoyas */}
-					<a href="/en/chachapoyas/city-tour-chachapoyas-medio-dia" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+
+
+
+
+
+
+
+
+					{/* Tour Card Chachapoyas 3D 2N */}
+					<a href="/en/chachapoyas/chachapoyas-3d-2n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
-								src="https://images.unsplash.com/photo-1587595431973-160d0d94add1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-								alt="City Tour Chachapoyas" 
+								src="/chachapoyas/kuelap.png" 
+								alt="Chachapoyas 3D 2N" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
-							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
-								Half Day
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								3D / 2N
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
@@ -236,8 +244,8 @@ import Navbar from '../../../components/Navbar.tsx';
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
 								Chachapoyas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">City Tour Chachapoyas</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Recorre las calles coloniales de la ciudad, visita sus museos y descubre el encanto histórico de la capital de Amazonas.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Chachapoyas 3D / 2N</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Explore the best of Chachapoyas in a three-day package full of history, mystery, and amazing landscapes.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -248,25 +256,25 @@ import Navbar from '../../../components/Navbar.tsx';
 						</div>
 					</a>
 
-					{/* Tour Card Catarata Yumbilla */}
-					<a href="/en/tours/catarata-yumbilla" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card Chachapoyas 2D 1N */}
+					<a href="/en/chachapoyas/chachapoyas-2d-1n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
-								src="https://images.unsplash.com/photo-1596422846543-75c6fc197f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-								alt="Catarata Yumbilla" 
+								src="/chachapoyas/cocachimba.png" 
+								alt="Chachapoyas 2D 1N" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
-							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
-								Full Day
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								2D / 1N
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
 							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-								Amazonas
+								Chachapoyas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Catarata Yumbilla</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Aventúrate a conocer una de las cataratas más altas del mundo en medio del bosque de neblina. Trekking y maravillas naturales.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Chachapoyas 2D / 1N</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">A quick getaway to Amazonas to briefly know some of the most representative attractions of the region.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -277,25 +285,25 @@ import Navbar from '../../../components/Navbar.tsx';
 						</div>
 					</a>
 
-					{/* Tour Card Kuélap */}
-					<a href="/en/tours/kuelap" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card Chachapoyas 4D 3N */}
+					<a href="/en/chachapoyas/chachapoyas-4d-3n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
-								src="https://images.unsplash.com/photo-1548074900-514d3dafb9c1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-								alt="Fortaleza de Kuélap" 
+								src="/chachapoyas/huancas.png" 
+								alt="Chachapoyas 4D 3N" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
-							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
-								Full Day
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								4D / 3N
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
 							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-								Amazonas
+								Chachapoyas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Kuélap</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Visita la majestuosa fortaleza de los Chachapoyas en las alturas de los Andes y maravíllate con su arquitectura milenaria.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Chachapoyas 4D / 3N</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Adventure, history and dazzling landscapes in a complete 4-day package in the Amazonas region.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -306,25 +314,25 @@ import Navbar from '../../../components/Navbar.tsx';
 						</div>
 					</a>
 
-					{/* Tour Card Huaylla Belén & Karajía */}
-					<a href="/en/tours/huaylla-belen-karajia" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card Chachapoyas 5D 4N */}
+					<a href="/en/chachapoyas/chachapoyas-5d-4n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
-								src="https://images.unsplash.com/photo-1518182170546-076616fd4aa6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-								alt="Huaylla Belén y Karajía" 
+								src="/chachapoyas/revash.png" 
+								alt="Chachapoyas 5D 4N" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
-							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
-								Full Day
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								5D / 4N
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
 							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-								Amazonas
+								Chachapoyas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Huaylla Belén & Karajía</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Descubre los enigmáticos sarcófagos de Karajía incrustados en la roca y pasea por el hermoso valle de Huaylla Belén.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Chachapoyas 5D / 4N</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Five incredible days full of exploration and culture, visiting the most representative places of the Amazonas region.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -335,25 +343,25 @@ import Navbar from '../../../components/Navbar.tsx';
 						</div>
 					</a>
 
-					{/* Tour Card Revash & Leymebamba */}
-					<a href="/en/tours/revash-leymebamba" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card Chachapoyas 6D 5N */}
+					<a href="/en/chachapoyas/chachapoyas-6d-5n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
-								src="https://images.unsplash.com/photo-1526392060635-9d6019884377?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-								alt="Revash y Leymebamba" 
+								src="/chachapoyas/leymebamba6d.png" 
+								alt="Chachapoyas 6D 5N" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
-							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
-								Full Day
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								6D / 5N
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
 							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-								Amazonas
+								Chachapoyas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Revash & Leymebamba</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Explora los coloridos mausoleos de Revash esculpidos en acantilados y maravíllate con las momias del museo de Leymebamba.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Chachapoyas 6D / 5N</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">A complete six-day exploration to thoroughly discover all the attractions, waterfalls, and archaeological sites of Amazonas.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -364,25 +372,25 @@ import Navbar from '../../../components/Navbar.tsx';
 						</div>
 					</a>
 
-					{/* Tour Card Karajía & Caverna Quiocta */}
-					<a href="/en/tours/karajia-caverna-quiocta" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card Chachapoyas 7D 6N */}
+					<a href="/en/chachapoyas/chachapoyas-7d-6n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
-								src="https://images.unsplash.com/photo-1615886745167-27b99d54e4f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-								alt="Karajía y Caverna Quiocta" 
+								src="/chachapoyas/chullpas.png" 
+								alt="Chachapoyas 7D 6N" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
-							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
-								Full Day
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								7D / 6N
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
 							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-								Amazonas
+								Chachapoyas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Karajía & Caverna Quiocta</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Conoce el arte funerario de los sarcófagos de Karajía y luego adéntrate en las estalactitas milenarias de la caverna Quiocta.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Chachapoyas 7D / 6N</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Our maximum expedition in the region. Seven days to connect deeply with the nature, culture, and history of Amazonas.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -392,51 +400,13 @@ import Navbar from '../../../components/Navbar.tsx';
 							</div>
 						</div>
 					</a>
-
-					{/* Tour Card Catarata Gocta */}
-					<a href="/en/tours/catarata-gocta" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
-						<div class="relative h-64 overflow-hidden">
-							<img 
-								src="https://images.unsplash.com/photo-1577700203590-7fbf295321f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-								alt="Catarata Gocta" 
-								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-							/>
-							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
-								Full Day
-							</div>
-						</div>
-						<div class="p-6 flex-1 flex flex-col">
-							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
-								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-								Amazonas
-							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Catarata Gocta</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Una impresionante caminata hasta la base de una de las cataratas más imponentes y altas del planeta.</p>
-							
-							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
-								<span class="text-brand-secondary font-bold hover:underline flex items-center">
-									View details
-									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-								</span>
-							</div>
-						</div>
-					</a>
-
-
-
-
-
-
-
-
-
 
 					{/* Tour Card 4D 3N Ambos Mundos */}
-					<a href="/tarapoto/tarapoto-chachapoyas-4d-3n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					<a href="/en/tarapoto/tarapoto-chachapoyas-4d-3n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
 								src="/chachapoyas/ambos-mundos4d3n.png" 
-								alt="Tarapoto y Chachapoyas 4D 3N" 
+								alt="Tarapoto and Chachapoyas 4D 3N" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
 							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
@@ -448,12 +418,12 @@ import Navbar from '../../../components/Navbar.tsx';
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
 								Tarapoto & Chachapoyas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Descubre Ambos Mundos</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Una fusión perfecta entre la selva vibrante de Tarapoto y la majestuosidad andina de Chachapoyas en 4 días de pura aventura.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Discover Both Worlds</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">A perfect fusion between the vibrant jungle of Tarapoto and the Andean majesty of Chachapoyas in 4 days of pure adventure.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
-									Ver detalles
+									View details
 									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
 								</span>
 							</div>
@@ -461,11 +431,11 @@ import Navbar from '../../../components/Navbar.tsx';
 					</a>
 
 					{/* Tour Card 6D 5N Ambos Mundos */}
-					<a href="/tarapoto/tarapoto-chachapoyas-6d-5n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					<a href="/en/tarapoto/tarapoto-chachapoyas-6d-5n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
 								src="/chachapoyas/ambos-mundos6d5n.png" 
-								alt="Tarapoto y Chachapoyas 6D 5N" 
+								alt="Tarapoto and Chachapoyas 6D 5N" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
 							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
@@ -477,24 +447,53 @@ import Navbar from '../../../components/Navbar.tsx';
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
 								Tarapoto & Chachapoyas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Descubre Ambos Mundos</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Seis días donde contrastan la riqueza amazónica y los misterios milenarios de Kuélap y Gocta.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Discover Both Worlds</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Six days where the Amazonian wealth and the ancient mysteries of Kuelap and Gocta contrast.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
-									Ver detalles
+									View details
 									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
 								</span>
 							</div>
 						</div>
 					</a>
 
-					{/* Tour Card 5D 4N Tarapoto y Chachapoyas */}
-					<a href="/tarapoto/tarapoto-chachapoyas-5d-4n-2" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card 7D 6N Ambos Mundos */}
+					<a href="/en/tarapoto/tarapoto-chachapoyas-7d-6n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="/chachapoyas/chachapoyas7d.png" 
+								alt="Tarapoto and Chachapoyas 7D 6N" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								7D / 6N
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Tarapoto & Chachapoyas
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Discover Both Worlds en 7 Días</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">The ultimate experience fusing the vibrant jungle of Tarapoto and the archaeological treasures of Chachapoyas.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
+
+					{/* Tour Card 5D 4N Tarapoto and Chachapoyas */}
+					<a href="/en/tarapoto/tarapoto-chachapoyas-5d-4n-2" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
 								src="/chachapoyas/ambos-mundos5d4n.png" 
-								alt="Tarapoto y Chachapoyas 5D 4N" 
+								alt="Tarapoto and Chachapoyas 5D 4N" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
 							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
@@ -506,24 +505,24 @@ import Navbar from '../../../components/Navbar.tsx';
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
 								Tarapoto & Chachapoyas
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Tarapoto y Chachapoyas</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Circuito especial para empaparte de los colores y la historia del nororiente peruano en una inolvidable estadía.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Tarapoto and Chachapoyas</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Special circuit to soak up the colors and history of northeastern Peru in an unforgettable stay.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
-									Ver detalles
+									View details
 									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
 								</span>
 							</div>
 						</div>
 					</a>
 
-					{/* Tour Card 8D 7N Tarapoto y Chachapoyas */}
-					<a href="/tarapoto/tarapoto-chachapoyas-8d-7n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card 8D 7N Tarapoto and Chachapoyas */}
+					<a href="/en/tarapoto/tarapoto-chachapoyas-8d-7n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
 								src="/chachapoyas/ambos-mundos8d7n.png" 
-								alt="Tarapoto y Chachapoyas 8D 7N" 
+								alt="Tarapoto and Chachapoyas 8D 7N" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
 							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
@@ -533,14 +532,14 @@ import Navbar from '../../../components/Navbar.tsx';
 						<div class="p-6 flex-1 flex flex-col">
 							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-								Gran Expedición
+								Great Expedition
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Tarapoto y Chachapoyas</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">El viaje definitivo. Ocho días para experimentar a profundidad todo lo que la selva y la ceja de selva tienen para ofrecer.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Tarapoto and Chachapoyas</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">The definitive trip. Eight days to experience in depth all that the jungle and the high jungle have to offer.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
-									Ver detalles
+									View details
 									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
 								</span>
 							</div>

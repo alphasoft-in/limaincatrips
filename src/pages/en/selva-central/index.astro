@@ -3,20 +3,20 @@ import Layout from '../../../layouts/Layout.astro';
 import Navbar from '../../../components/Navbar.tsx';
 ---
 
-<Layout title="Tours in Central Jungle - Lima Inca Trips">
-	<Navbar client:load solid={true} currentPath=`/en/selva-central` />
+<Layout title="Tours in Selva Central - Lima Inca Trips" lang="en">
+	<Navbar client:load solid={true} currentPath="/en/selva-central" lang="en" />
 	<main class="pt-24 min-h-screen bg-gray-50">
 		<section class="py-12">
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
-				<span class="text-brand-accent font-bold tracking-wider uppercase text-sm">Destination Central Jungle</span>
-				<h1 class="mt-2 text-4xl font-display font-bold text-brand-primary mb-6">Tour Packages in Central Jungle</h1>
-				<p class="text-gray-600 max-w-2xl mx-auto">Nature, waterfalls, native communities, and great coffee. Explore Chanchamayo, Oxapampa, Pozuzo and Villa Rica.</p>
+				<span class="text-brand-accent font-bold tracking-wider uppercase text-sm">Jungle Destination Central</span>
+				<h1 class="mt-2 text-4xl font-display font-bold text-brand-primary mb-6">Tour Packages in la Selva Central</h1>
+				<p class="text-gray-600 max-w-2xl mx-auto">Nature, waterfalls, native communities, and a lot of coffee. Explore Chanchamayo, Oxapampa, Pozuzo, and Villa Rica.</p>
 			</div>
 
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 					{/* Tour Card 2D 1N */}
-					<a href="/selva-central/selva-central-2d-1n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					<a href="/en/selva-central/selva-central-2d-1n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
 								src="/selva-central/perene.png" 
@@ -32,12 +32,12 @@ import Navbar from '../../../components/Navbar.tsx';
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
 								Perené - Oxapampa
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Selva Central: Escapada Corta</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Disfruta de una escapada perfecta visitando cataratas, comunidades nativas y la hermosa ciudad de Oxapampa.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Central Jungle: Short Getaway</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Enjoy a perfect getaway visiting waterfalls, native communities and the beautiful city of Oxapampa.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
-									Ver detalles
+									View details
 									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
 								</span>
 							</div>
@@ -49,7 +49,7 @@ import Navbar from '../../../components/Navbar.tsx';
 						<div class="relative h-64 overflow-hidden">
 							<img 
 								src="/selva-central/oxapampa.png" 
-								alt="Central Jungle 3D 2N" 
+								alt="Selva Central 3D 2N" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
 							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
@@ -61,8 +61,8 @@ import Navbar from '../../../components/Navbar.tsx';
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
 								Perené - Oxapampa - Pozuzo
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Central Jungle: Adventure & Tradition</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Discover the central jungle, breathtaking waterfalls, and the only Austro-German colony in the world, Pozuzo.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Central Jungle: Adventure and Tradition</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Discover the central jungle, impressive waterfalls and the only Austro-German colony in the world, Pozuzo.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
@@ -72,7 +72,7 @@ import Navbar from '../../../components/Navbar.tsx';
 							</div>
 						</div>
 					</a>
-					<a href="/selva-central/selva-central-4d-3n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					<a href="/en/selva-central/selva-central-4d-3n" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
 								src="/selva-central/villa-rica.png" 
@@ -88,12 +88,12 @@ import Navbar from '../../../components/Navbar.tsx';
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
 								Perené - Oxapampa - Pozuzo - Villa Rica
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Selva Central: Ruta del Café</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Explora la selva central completa incluyendo la laguna Oconal, cataratas y el mejor café del mundo en Villa Rica.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Central Jungle: Coffee Route</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Explore the complete central jungle including the Oconal lagoon, waterfalls, and the best coffee in the world in Villa Rica.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
-									Ver detalles
+									View details
 									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
 								</span>
 							</div>

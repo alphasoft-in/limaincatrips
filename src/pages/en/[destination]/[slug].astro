@@ -5,7 +5,7 @@ import Navbar from '../../../components/Navbar.tsx';
 import BookingWidget from '../../../components/BookingWidget.tsx';
 
 export async function getStaticPaths() {
-  const tours = await getCollection('tours');
+  const tours = await getCollection('tours-en');
   return tours.map((tour: CollectionEntry<'tours'>) => ({
     // @ts-ignore - destination is dynamically added to frontmatter
     params: { destination: tour.data.destination || 'tours', slug: tour.id },
@@ -21,7 +21,7 @@ const { tour } = Astro.props;
 const { Content } = await render(tour);
 const data = tour.data;
 
-const allTours = await getCollection('tours');
+const allTours = await getCollection('tours-en');
 const relatedTours = allTours
   .filter((t: CollectionEntry<'tours'>) => t.data.destination === data.destination && t.id !== tour.id)
   .slice(0, 3);
@@ -29,7 +29,7 @@ const relatedTours = allTours
 const whatsappLink = `https://wa.me/51936976776?text=${encodeURIComponent(data.whatsappText || `Hola, quisiera información sobre el tour ${data.title}`)}`;
 ---
 
-<Layout title={data.metaTitle || `${data.title} - Lima Inca Trips`}>
+<Layout title={data.metaTitle || `${data.title} - Lima Inca Trips`} lang="en">
 	<Navbar client:load solid={true} currentPath={Astro.url.pathname} lang="en" />
 	
 	<main class="min-h-screen bg-brand-light">
@@ -42,7 +42,7 @@ const whatsappLink = `https://wa.me/51936976776?text=${encodeURIComponent(data.w
 			/>
 			<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
 			<div class="absolute inset-0 flex flex-col items-center justify-center text-center px-4 pt-24">
-				<span class="text-brand-secondary font-bold tracking-widest uppercase text-lg mb-4 block drop-shadow-lg">{data.subtitle}</span>
+				<span class="text-white/90 font-bold tracking-widest uppercase text-sm mb-4 block drop-shadow-lg">{data.subtitle}</span>
 				<h1 class="text-4xl md:text-5xl lg:text-6xl text-center font-display font-bold text-white mb-6 drop-shadow-xl max-w-4xl">{data.title}</h1>
 				<div class="inline-block px-6 py-2 bg-brand-secondary text-white rounded-full font-bold text-xl shadow-lg">
 					{data.badges[0]}
@@ -57,7 +57,7 @@ const whatsappLink = `https://wa.me/51936976776?text=${encodeURIComponent(data.w
 				<div class="lg:col-span-2">
 					<div class="flex items-center gap-3 mb-8">
 						<svg class="w-8 h-8 text-brand-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-						<h2 class="text-4xl font-display font-bold text-brand-primary">Itinerario del Viaje</h2>
+						<h2 class="text-4xl font-display font-bold text-brand-primary">Travel Itinerary</h2>
 					</div>
 					
 					<div class="mb-10 itinerary-wrapper">
@@ -68,7 +68,7 @@ const whatsappLink = `https://wa.me/51936976776?text=${encodeURIComponent(data.w
             <div class="bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden mb-10 p-6">
               <h3 class="text-xl font-bold text-gray-900 flex items-center gap-2 mb-4">
                 <svg class="w-6 h-6 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path></svg>
-                ¿Qué traer? (Recomendado)
+                What to bring? (Recommended)
               </h3>
               
               <ul class="space-y-3 text-gray-700 text-[15px]">
@@ -82,12 +82,12 @@ const whatsappLink = `https://wa.me/51936976776?text=${encodeURIComponent(data.w
               
               {data.note && (
                 <div class="mt-6 bg-[#f0f4f8] text-[#1e3a8a] p-4 rounded-xl text-sm">
-                  <span class="font-bold">Nota:</span> 
-                  {data.note.replace('Nota: ', '').split('aquí').length > 1 ? (
+                  <span class="font-bold">Note:</span> 
+                  {data.note.replace('Note: ', '').replace('Nota: ', '').split('here').length > 1 ? (
                     <>
-                      {data.note.replace('Nota: ', '').split('aquí')[0]}
-                      <a href={whatsappLink} target="_blank" rel="noopener noreferrer" class="font-bold underline hover:text-brand-primary">aquí</a>
-                      {data.note.replace('Nota: ', '').split('aquí')[1]}
+                      {data.note.replace('Note: ', '').replace('Nota: ', '').split('here')[0]}
+                      <a href={whatsappLink} target="_blank" rel="noopener noreferrer" class="font-bold underline hover:text-brand-primary">here</a>
+                      {data.note.replace('Note: ', '').replace('Nota: ', '').split('here')[1]}
                     </>
                   ) : (
                     data.note.replace('Nota: ', '')
@@ -107,7 +107,7 @@ const whatsappLink = `https://wa.me/51936976776?text=${encodeURIComponent(data.w
               <div class="bg-brand-primary p-6">
                 <h3 class="text-2xl font-display font-bold text-white flex items-center gap-2">
                   <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                  Incluye
+                  Included
                 </h3>
               </div>
               <div class="p-6">
@@ -128,7 +128,7 @@ const whatsappLink = `https://wa.me/51936976776?text=${encodeURIComponent(data.w
               <div class="bg-gray-100 p-6">
                 <h3 class="text-2xl font-display font-bold text-gray-800 flex items-center gap-2">
                   <svg class="w-6 h-6 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                  No Incluye
+                  Not Included
                 </h3>
               </div>
               <div class="p-6">
@@ -144,26 +144,6 @@ const whatsappLink = `https://wa.me/51936976776?text=${encodeURIComponent(data.w
             </div>
           )}
 
-          {data.destination !== 'cusco' && data.conditions && data.conditions.length > 0 && (
-            <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden mt-8">
-              <div class="bg-brand-secondary p-6">
-                <h3 class="text-xl font-display font-bold text-white flex items-center gap-2">
-                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-                  Condiciones y vigencia
-                </h3>
-              </div>
-              <div class="p-6">
-                <ul class="space-y-3 text-sm text-gray-600">
-                  {data.conditions.map((item: string) => (
-                    <li class="flex items-start gap-2">
-                      <span class="text-brand-secondary font-bold">•</span>
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          )}
 
 					{/* Pick Up Locations */}
           {data.pickupInfo && data.pickupInfo.length > 0 && (
@@ -184,14 +164,14 @@ const whatsappLink = `https://wa.me/51936976776?text=${encodeURIComponent(data.w
           )}
 
 					<div class="mt-8">
-						<BookingWidget client:load tourTitle={data.title} />
+						<BookingWidget client:load tourTitle={data.title} lang="en" />
 					</div>
 
           {/* Recommended Tours */}
           {relatedTours.length > 0 && (
             <div class="mt-8 bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
               <div class="bg-gray-50 p-6 border-b border-gray-100">
-                <h3 class="text-xl font-display font-bold text-gray-800">Tours Recomendados</h3>
+                <h3 class="text-xl font-display font-bold text-gray-800">Recommended Tours</h3>
               </div>
               <div class="divide-y divide-gray-100">
                 {relatedTours.map((relatedTour: CollectionEntry<'tours'>) => (

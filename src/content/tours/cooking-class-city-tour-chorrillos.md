@@ -31,71 +31,71 @@ excludes:
 
 <div class="mb-8">
 <h2 class="text-2xl font-bold text-gray-900 mb-4">Cooking Class (Chorrillos) y City Tour Privado</h2>
-<p class="text-lg text-gray-700 leading-relaxed mb-4">
+<p class="text-lg text-gray-700 leading-relaxed">
 Disfruta de un exclusivo recorrido privado que combina lo mejor de nuestra historia y gastronomía. Desde un mercado local hasta una clase de cocina interactiva (Causa, Ceviche y Pisco Sour) y la visita a los íconos de la Ciudad de los Reyes.
 </p>
 </div>
 
 <div class="space-y-6">
 
-  <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-    <div class="flex items-center gap-4 mb-4">
-      <div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-      </div>
-      <h3 class="text-xl font-bold text-gray-900">Horario de Inicio</h3>
-    </div>
-    <div class="text-gray-600 space-y-2">
-      <p><strong>09:45 AM:</strong> Recojo del Hotel en Miraflores o San Isidro.</p>
-    </div>
-  </div>
+<div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">
+<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+</div>
+<h3 class="text-xl font-bold text-gray-900">Horario de Inicio</h3>
+</div>
+<div class="text-gray-600 space-y-2">
+<p><strong>09:45 AM:</strong> Recojo del Hotel en Miraflores o San Isidro.</p>
+</div>
+</div>
 
-  <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-    <div class="flex items-center gap-4 mb-4">
-      <div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">1</div>
-      <h3 class="text-xl font-bold text-gray-900">Mercado Popular</h3>
-    </div>
-    <div class="text-gray-600 mb-4 space-y-3">
-      <p>Nuestra primera parada será un mercado local, un lugar lleno de color y vida donde podrás interactuar con los comerciantes y conocer de cerca los productos frescos y autóctonos de la gastronomía peruana. Podrás degustar de 3 frutas de estación.</p>
-    </div>
-  </div>
+<div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">1</div>
+<h3 class="text-xl font-bold text-gray-900">Mercado Popular</h3>
+</div>
+<div class="text-gray-600 space-y-2">
+<p>Nuestra primera parada será un mercado local, un lugar lleno de color y vida donde podrás interactuar con los comerciantes y conocer de cerca los productos frescos y autóctonos de la gastronomía peruana. Podrás degustar de 3 frutas de estación.</p>
+</div>
+</div>
 
-  <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-    <div class="flex items-center gap-4 mb-4">
-      <div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">2</div>
-      <h3 class="text-xl font-bold text-gray-900">Cooking Class</h3>
-    </div>
-    <div class="text-gray-600 mb-4 space-y-3">
-      <p><strong>Clase de Pisco Sour:</strong> En esta clase aprenderás todo sobre el pisco, su historia y las variedades de esta bebida nacional. Después, nos centraremos en el Pisco Sour, utilizando ingredientes frescos: jugo de limón, jarabe de goma, clara de huevo y pisco. Nuestro experto mixólogo te guiará para que prepares tu propio cóctel de manera profesional y puedas disfrutar de su deliciosa degustación.</p>
-      <p><strong>Clase de Cocina (Causa y Ceviche):</strong> Nos adentraremos primero en la preparación de la <strong>Causa Limeña</strong>. Este plato, que combina la suavidad del puré de papa amarilla con ingredientes frescos y coloridos, será el primer desafío culinario. Descubre los secretos de su preparación y aprende las técnicas que lo hacen tan especial.</p>
-      <p>Luego, nos adentraremos en la preparación del <strong>Ceviche</strong>. Conocerás los ingredientes que componen este plato, técnicas de corte, marinado en limón, y acompañamientos tradicionales como camote, choclo y canchita. Tras cortar los ingredientes, pasaremos a elaborar la guarnición y los aliños cítricos para el platillo ícono del Perú.</p>
-      <p>Una vez finalizada la preparación, llegará el momento de disfrutar tus creaciones.</p>
-    </div>
-  </div>
+<div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">2</div>
+<h3 class="text-xl font-bold text-gray-900">Cooking Class</h3>
+</div>
+<div class="text-gray-600 space-y-2">
+<p><strong>Clase de Pisco Sour:</strong> En esta clase aprenderás todo sobre el pisco, su historia y las variedades de esta bebida nacional. Después, nos centraremos en el Pisco Sour, utilizando ingredientes frescos: jugo de limón, jarabe de goma, clara de huevo y pisco. Nuestro experto mixólogo te guiará para que prepares tu propio cóctel de manera profesional y puedas disfrutar de su deliciosa degustación.</p>
+<p><strong>Clase de Cocina (Causa y Ceviche):</strong> Nos adentraremos primero en la preparación de la <strong>Causa Limeña</strong>. Este plato, que combina la suavidad del puré de papa amarilla con ingredientes frescos y coloridos, será el primer desafío culinario. Descubre los secretos de su preparación y aprende las técnicas que lo hacen tan especial.</p>
+<p>Luego, nos adentraremos en la preparación del <strong>Ceviche</strong>. Conocerás los ingredientes que componen este plato, técnicas de corte, marinado en limón, y acompañamientos tradicionales como camote, choclo y canchita. Tras cortar los ingredientes, pasaremos a elaborar la guarnición y los aliños cítricos para el platillo ícono del Perú.</p>
+<p>Una vez finalizada la preparación, llegará el momento de disfrutar tus creaciones.</p>
+</div>
+</div>
 
-  <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-    <div class="flex items-center gap-4 mb-4">
-      <div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">3</div>
-      <h3 class="text-xl font-bold text-gray-900">Miraflores y Huaca Pucllana</h3>
-    </div>
-    <div class="text-gray-600 mb-4 space-y-3">
-      <p><strong>Parque del Amor:</strong> Visitaremos el Parque del Amor situado en el famoso barrio de Miraflores. Inaugurado el día de San Valentín en 1993, es el lugar perfecto para pasear, sentarse en sus bancos realizados con mosaicos de colores, y leer las diferentes frases de poetas dedicadas al amor.</p>
-      <p><strong>Vista Externa Huaca Pucllana:</strong> Su vista panorámica ofrece una impresionante visión de una estructura piramidal preincaica que se destaca en medio de la ciudad moderna. Apreciarás la fusión única entre la cultura precolombina y la vida contemporánea.</p>
-    </div>
-  </div>
+<div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">3</div>
+<h3 class="text-xl font-bold text-gray-900">Miraflores y Huaca Pucllana</h3>
+</div>
+<div class="text-gray-600 space-y-2">
+<p><strong>Parque del Amor:</strong> Visitaremos el Parque del Amor situado en el famoso barrio de Miraflores. Inaugurado el día de San Valentín en 1993, es el lugar perfecto para pasear, sentarse en sus bancos realizados con mosaicos de colores, y leer las diferentes frases de poetas dedicadas al amor.</p>
+<p><strong>Vista Externa Huaca Pucllana:</strong> Su vista panorámica ofrece una impresionante visión de una estructura piramidal preincaica que se destaca en medio de la ciudad moderna. Apreciarás la fusión única entre la cultura precolombina y la vida contemporánea.</p>
+</div>
+</div>
 
-  <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
-    <div class="flex items-center gap-4 mb-4">
-      <div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">4</div>
-      <h3 class="text-xl font-bold text-gray-900">Centro Histórico de Lima</h3>
-    </div>
-    <div class="text-gray-600 mb-4 space-y-3">
-      <p><strong>Plaza Mayor de Lima:</strong> Situada en el corazón del centro histórico y en el mismo lugar donde en 1535 Francisco Pizarro fundó la ciudad. Rodeada por algunos de los edificios más importantes como la Catedral, el Palacio de Gobierno, el Palacio Arzobispal y la Iglesia del Sagrario.</p>
-      <p><strong>Convento San Francisco:</strong> Muy famoso por sus catacumbas y su increíble biblioteca. Este monasterio tiene además una basílica donde destaca el altar mayor, la sacristía y el claustro. También es conocido por sus enormes catacumbas donde descansan unos 70000 cadáveres.</p>
-      <p>Terminamos el recorrido con una demostración y degustación de la bebida bandera del Perú, el “Pisco Sour”. Finalmente abordaremos nuestra unidad para retornar al Hotel.</p>
-    </div>
-  </div>
+<div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+<div class="flex items-center gap-4 mb-4">
+<div class="w-12 h-12 bg-brand-primary text-white rounded-full flex items-center justify-center font-bold text-xl flex-shrink-0">4</div>
+<h3 class="text-xl font-bold text-gray-900">Centro Histórico de Lima</h3>
+</div>
+<div class="text-gray-600 space-y-2">
+<p><strong>Plaza Mayor de Lima:</strong> Situada en el corazón del centro histórico y en el mismo lugar donde en 1535 Francisco Pizarro fundó la ciudad. Rodeada por algunos de los edificios más importantes como la Catedral, el Palacio de Gobierno, el Palacio Arzobispal y la Iglesia del Sagrario.</p>
+<p><strong>Convento San Francisco:</strong> Muy famoso por sus catacumbas y su increíble biblioteca. Este monasterio tiene además una basílica donde destaca el altar mayor, la sacristía y el claustro. También es conocido por sus enormes catacumbas donde descansan unos 70000 cadáveres.</p>
+<p>Terminamos el recorrido con una demostración y degustación de la bebida bandera del Perú, el “Pisco Sour”. Finalmente abordaremos nuestra unidad para retornar al Hotel.</p>
+</div>
+</div>
 
 </div>

@@ -1,5 +1,5 @@
 ---
-destination: "tours"
+destination: "chachapoyas"
 title: "Tours a Catarata Yumbilla, Perú"
 subtitle: "Quinta catarata más alta del mundo"
 heroImage: "/chachapoyas/yumbilla.png"
@@ -49,7 +49,7 @@ note: "Si usted necesita de un guía turístico en ingles tiene un costo adicion
 <span class="flex items-center gap-1"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6"></path></svg> Retorno: 5:00 PM aprox.</span>
 </div>
 
-<div class="text-gray-600 space-y-3">
+<div class="text-gray-600 space-y-2">
 <p>Esta es una de nuestras excursiones que recomendamos no dejar de visitar en tu viaje a la región Amazonas, la <strong>Catarata Yumbilla</strong>, se encuentra en medio del bosque de nubes sobre los Andes Amazónicos en la comunidad de Cuispes en la región Amazonas.</p>
 
 <p>A las <strong>8:00 AM</strong> iniciamos nuestro viaje de 2 horas con destino a la comunidad de Cuispes, a nuestro arribo haremos la reserva de los almuerzos y nos encontraremos con nuestro guía local experto en el área, en seguida continuamos el viaje por 15 minutos más, dejamos la movilidad e iniciamos una caminata de 1 hora hasta el bosque de las cataratas.</p>

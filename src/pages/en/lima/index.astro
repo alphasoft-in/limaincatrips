@@ -3,28 +3,28 @@ import Layout from '../../../layouts/Layout.astro';
 import Navbar from '../../../components/Navbar.tsx';
 ---
 
-<Layout title="Tours in Lima - Lima Inca Trips">
-	<Navbar client:load solid={true} currentPath=`/en/lima` />
+<Layout title="Tours in Lima - Lima Inca Trips" lang="en">
+	<Navbar client:load solid={true} currentPath="/en/lima" lang="en" />
 	<main class="pt-24 min-h-screen bg-gray-50">
 		<section class="py-12">
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-16">
-				<span class="text-brand-accent font-bold tracking-wider uppercase text-sm">Destination Lima</span>
-				<h1 class="mt-2 text-4xl font-display font-bold text-brand-primary mb-6">Tour Packages in Lima & Callao</h1>
-				<p class="text-gray-600 max-w-2xl mx-auto">Discover the City of Kings, its colonial history, and the beautiful marine wildlife in Callao.</p>
+				<span class="text-brand-accent font-bold tracking-wider uppercase text-sm">Destino Lima</span>
+				<h1 class="mt-2 text-4xl font-display font-bold text-brand-primary mb-6">Tour Packages in Lima y Callao</h1>
+				<p class="text-gray-600 max-w-2xl mx-auto">Get to know the City of Kings, its colonial history, and the beauty of the marine fauna in Callao.</p>
 			</div>
 
 			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-					{/* Tour Card Islas Palomino */}
-					<a href="/lima/islas-palomino" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					{/* Tour Card Palomino Islands */}
+					<a href="/en/lima/islas-palomino" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
-								src="https://images.unsplash.com/photo-1596700512604-bb703b688c22?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
-								alt="Islas Palomino, Lobos Marinos" 
+								src="/lima/isla_palomino.png" 
+								alt="Palomino Islands, Lobos Marinos" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
-							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
-								Medio Día
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								Half Day
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
@@ -32,12 +32,12 @@ import Navbar from '../../../components/Navbar.tsx';
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
 								Callao
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Islas Palomino</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Naturaleza y fauna marina. Una increíble travesía en yate con la oportunidad de nadar con lobos marinos.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Palomino Islands</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Nature and marine fauna. An incredible yacht trip with the opportunity to swim with sea lions.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
-									Ver detalles
+									View details
 									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
 								</span>
 							</div>
@@ -45,15 +45,15 @@ import Navbar from '../../../components/Navbar.tsx';
 					</a>
 
 					{/* Tour Card Lima y Miraflores City Tour */}
-					<a href="/lima/lima-miraflores-city-tour" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+					<a href="/en/lima/lima-miraflores-city-tour" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
 						<div class="relative h-64 overflow-hidden">
 							<img 
-								src="https://images.unsplash.com/photo-1577587230708-187fdbef4d91?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+								src="/destacados/miraflores.png" 
 								alt="Centro Histórico de Lima" 
 								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
 							/>
-							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full">
-								Medio Día
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								Half Day
 							</div>
 						</div>
 						<div class="p-6 flex-1 flex flex-col">
@@ -61,28 +61,104 @@ import Navbar from '../../../components/Navbar.tsx';
 								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
 								Lima - Miraflores
 							</div>
-							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">City Tour Lima y Miraflores</h3>
-							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Descubre la Ciudad de los Reyes. Visita el centro histórico, las Catacumbas y degusta nuestro Pisco Sour.</p>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Lima & Miraflores City Tour</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Discover the City of Kings. Visit the historic center, the Catacombs and taste our Pisco Sour.</p>
 							
 							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
 								<span class="text-brand-secondary font-bold hover:underline flex items-center">
-									Ver detalles
+									View details
 									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
 								</span>
 							</div>
 						</div>
 					</a>
 
+					{/* Tour Card Cooking Class */}
+					<a href="/en/lima/cooking-class-city-tour-lima" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="/lima/cooking_class.png" 
+								alt="Cooking Class en Lima" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								7 Hrs. 30 Min.
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Lima - Miraflores
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Cooking Class + City Tour</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Interactive gastronomic experience and historical and cultural tour in the City of Kings.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
 
+					{/* Tour Card Cooking Class Chorrillos */}
+					<a href="/en/lima/cooking-class-city-tour-chorrillos" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="/lima/chorrillos.png" 
+								alt="Cooking Class en Chorrillos" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								7 Hrs. 30 Min.
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Lima - Chorrillos
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Cooking Class Chorrillos + City Tour</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Gastronomic experience (Causa, Ceviche, and Pisco) in Riviera Chorrillos and private City Tour.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
 
-
-
-
-
-
-					
-					
-					
+					{/* Tour Card Cooking Class La Gran Patrona */}
+					<a href="/en/lima/cooking-class-city-tour-la-gran-patrona" class="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col">
+						<div class="relative h-64 overflow-hidden">
+							<img 
+								src="/lima/la_gran_patrona.png" 
+								alt="Cooking Class en La Gran Patrona" 
+								class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+							/>
+							<div class="absolute top-4 right-4 bg-brand-secondary text-white text-sm font-bold px-3 py-1 rounded-full shadow-md">
+								7 Hrs. 30 Min.
+							</div>
+						</div>
+						<div class="p-6 flex-1 flex flex-col">
+							<div class="flex items-center text-brand-accent text-xs font-semibold uppercase tracking-wider mb-2">
+								<svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+								Lima - La Gran Patrona
+							</div>
+							<h3 class="text-xl font-display font-bold text-gray-900 mb-2 group-hover:text-brand-primary transition-colors">Cooking Class La Gran Patrona + City Tour</h3>
+							<p class="text-gray-600 text-sm mb-4 line-clamp-3">Interactive gastronomic experience in La Gran Patrona (Options of 1 or 2 dishes) and private City Tour.</p>
+							
+							<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-end">
+								<span class="text-brand-secondary font-bold hover:underline flex items-center">
+									View details
+									<svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+								</span>
+							</div>
+						</div>
+					</a>
 
 				</div>
 			</div>
